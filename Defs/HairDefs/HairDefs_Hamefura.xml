@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Male hairstyles -->
+
+	<HairDef>
+		<defName>Hamefura_Geordo</defName>
+		<label>[HF] Geordo</label>
+		<hairGender>Male</hairGender>
+		<texPath>Hair/Hamefura_Geordo</texPath>
+		<hairTags>
+			<li>Royalty</li>
+			<li>Urban</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Hamefura_Alan</defName>
+		<label>[HF] Alan</label>
+		<hairGender>Male</hairGender>
+		<texPath>Hair/Hamefura_Alan</texPath>
+		<hairTags>
+			<li>Royalty</li>
+			<li>Urban</li>
+			<li>Punk</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Hamefura_Keith</defName>
+		<label>[HF] Keith</label>
+		<hairGender>Male</hairGender>
+		<texPath>Hair/Hamefura_Keith</texPath>
+		<hairTags>
+			<li>Royalty</li>
+			<li>Urban</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Hamefura_Nicol</defName>
+		<label>[HF] Nicol</label>
+		<hairGender>Male</hairGender>
+		<texPath>Hair/Hamefura_Nicol</texPath>
+		<hairTags>
+			<li>Royalty</li>
+			<li>Urban</li>
+		</hairTags>
+	</HairDef>
+	
+	<!-- Female hairstyles -->
+	
+	<HairDef>
+		<defName>Hamefura_Catarina</defName>
+		<label>[HF] Catarina</label>
+		<hairGender>Female</hairGender>
+		<texPath>Hair/Hamefura_Catarina</texPath>
+		<hairTags>
+			<li>Royalty</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Hamefura_CatarinaFarm</defName>
+		<label>[HF] Catarina (Farm)</label>
+		<hairGender>Female</hairGender>
+		<texPath>Hair/Hamefura_CatarinaFarm</texPath>
+		<hairTags>
+			<li>Rural</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Hamefura_Mary</defName>
+		<label>[HF] Mary</label>
+		<hairGender>Female</hairGender>
+		<texPath>Hair/Hamefura_Mary</texPath>
+		<hairTags>
+			<li>Royalty</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Hamefura_Sophia</defName>
+		<label>[HF] Sophia</label>
+		<hairGender>Female</hairGender>
+		<texPath>Hair/Hamefura_Sophia</texPath>
+		<hairTags>
+			<li>Royalty</li>
+		</hairTags>
+	</HairDef>
+	
+	<HairDef>
+		<defName>Hamefura_Maria</defName>
+		<label>[HF] Maria</label>
+		<hairGender>Female</hairGender>
+		<texPath>Hair/Hamefura_Maria</texPath>
+		<hairTags>
+			<li>Rural</li>
+		</hairTags>
+	</HairDef>
+	
+</Defs>
