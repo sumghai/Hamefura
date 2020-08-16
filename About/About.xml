@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Hamefura</name>
+	<author>sumghai</author>
+	<packageId>sumghai.hamefura</packageId>
+	<description>Adds hairstyles, apparel and weapons from the My Next Life as a Villainess: All Roads Lead to Doom! franchise, also known as Destruction Flag Otome or Hamefura.\n\nv0.1</description>
+	<url/>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Butterfish.HairModdingPlus</packageId>
+			<displayName>Hair Modding Plus</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2114832515</steamWorkshopUrl>
+			<downloadUrl>https://github.com/TheButterfish/HairModdingPlus/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+</ModMetaData>
