@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: [HF] Geordo -->
+	<Hamefura_Geordo.label>[はめふら] ジオルド</Hamefura_Geordo.label>
+
+	<!-- EN: [HF] Alan -->
+	<Hamefura_Alan.label>[はめふら] アラン</Hamefura_Alan.label>
+
+	<!-- EN: [HF] Keith -->
+	<Hamefura_Keith.label>[はめふら] キース</Hamefura_Keith.label>
+
+	<!-- EN: [HF] Nicol -->
+	<Hamefura_Nicol.label>[はめふら] ニコル</Hamefura_Nicol.label>
+
+	<!-- EN: [HF] Catarina -->
+	<Hamefura_Catarina.label>[はめふら] カタリナ</Hamefura_Catarina.label>
+
+	<!-- EN: [HF] Catarina (Farm) -->
+	<Hamefura_CatarinaFarm.label>[はめふら] カタリナ (農)</Hamefura_CatarinaFarm.label>
+
+	<!-- EN: [HF] Mary -->
+	<Hamefura_Mary.label>[はめふら] メアリ</Hamefura_Mary.label>
+
+	<!-- EN: [HF] Sophia -->
+	<Hamefura_Sophia.label>[はめふら] ソフィア</Hamefura_Sophia.label>
+	
+	<!-- EN: [HF] Maria -->
+	<Hamefura_Maria.label>[はめふら] マリア</Hamefura_Maria.label>
+
+</LanguageData>
