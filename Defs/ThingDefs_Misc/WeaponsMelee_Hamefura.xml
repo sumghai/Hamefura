@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Royal Sword -->
+
+	<ThingDef ParentName="BaseMeleeWeapon">
+		<defName>Hamefura_RoyalSword</defName>
+		<label>Royal Sword</label>
+		<description>An longsword with an ornate hilt, typically carried by male members of the Royal Family of Sorcier as a symbol of authority. Good for stabbing or slashing.</description>
+		<graphicData>
+			<texPath>Things/WeaponMelee/Hamefura_RoyalSword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>MedievalMeleeAdvanced</li>
+		</weaponTags>
+		<costList>
+			<Steel>95</Steel>
+			<Gold>1</Gold>
+			<Leather_Plain>2</Leather_Plain>
+		</costList>
+		<statBases>
+			<WorkToMake>24000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<equippedStatOffsets>
+			<SocialImpact>0.20</SocialImpact>
+		</equippedStatOffsets>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>point</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>24</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>LongBlades</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>7</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<!-- Garden Hoe -->
+
+	<ThingDef ParentName="BaseMeleeWeapon">
+		<defName>Hamefura_GardenHoe</defName>
+		<label>Garden Hoe</label>
+		<description>A common agricultural hand tool used for breaking up soil, removing weeds and harvesting root vegetables. In a pinch, it can also be used as a crude weapon.</description>
+		<graphicData>
+			<texPath>Things/WeaponMelee/Hamefura_GardenHoe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>MedievalMeleeDecent</li>
+		</weaponTags>
+		<costList>
+			<Steel>50</Steel>
+			<WoodLog>70</WoodLog>
+		</costList>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>2</Mass>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<equippedStatOffsets>
+			<PlantWorkSpeed>0.15</PlantWorkSpeed>
+			<PlantHarvestYield>0.10</PlantHarvestYield>
+			<SocialImpact>-0.20</SocialImpact>
+		</equippedStatOffsets>
+		<tools>
+			<li>
+				<label>shaft</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>Smithing</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>3</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>
