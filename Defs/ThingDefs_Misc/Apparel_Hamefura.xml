@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Base classes -->
+
+	<ThingDef Name="ApparelHamefuraCommonerBase" ParentName="ApparelMakeableBase" Abstract="True">
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+		</recipeMaker>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef Name="ApparelHamefuraNobleBase" ParentName="ApparelHamefuraCommonerBase" Abstract="True" />
+	<!--
+		Placeholder: This provides a target for patches that detect if the Royalty DLC is active, and modifies noble apparel by:
+		- replacing ComplexClothing with NobleApparel for researchPrerequisite
+		- replacing Apparel with ApparelNoble for thingCategories
+	-->
+
+	<!-- Duchess's Dress (Catarina) -->
+
+	<ThingDef ParentName="ApparelHamefuraNobleBase">
+		<defName>Hamefura_Apparel_Catarina</defName>
+		<label>Duchess's Dress</label>
+		<description>A short-sleeved cravat blouse paired with a panelled calf-length crinoline skirt, befitting upper-class noblewomen while being practical for all kinds of mischief.</description>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Apparel/Hamefura_Apparel_Catarina/Hamefura_Apparel_Catarina</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>16000</WorkToMake>
+			<MaxHitPoints>450</MaxHitPoints>
+			<Mass>5.5</Mass>
+			<StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>12</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.18</SocialImpact>
+			<NegotiationAbility>0.1</NegotiationAbility>
+		</equippedStatOffsets>
+		<costStuffCount>250</costStuffCount>
+		<costList>
+			<Gold>1</Gold>
+			<Steel>15</Steel>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_Catarina/Hamefura_Apparel_Catarina</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier7</li>
+			</tags>
+			<gender>Female</gender>
+		</apparel>
+	</ThingDef>
+
+	<!-- Prince's Suit (Geordo) -->
+
+	<ThingDef ParentName="ApparelHamefuraNobleBase">
+		<defName>Hamefura_Apparel_Geordo</defName>
+		<label>Prince's Suit</label>
+		<description>A vested morning suit with tailcoat, decorated with gold trim and tailored to exacting specifications, reserved for male Royalty.</description>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>16</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Apparel/Hamefura_Apparel_Geordo/Hamefura_Apparel_Geordo</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>18000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>3.1</Mass>
+			<StuffEffectMultiplierArmor>0.43</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.62</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>9.3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.2</SocialImpact>
+			<NegotiationAbility>0.2</NegotiationAbility>
+		</equippedStatOffsets>
+		<costStuffCount>210</costStuffCount>
+		<costList>
+			<Gold>1</Gold>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_Geordo/Hamefura_Apparel_Geordo</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier7</li>
+			</tags>
+			<gender>Male</gender>
+		</apparel>
+	</ThingDef>
+
+	<!-- Duke's Suit (Keith) -->
+
+	<ThingDef ParentName="ApparelHamefuraNobleBase">
+		<defName>Hamefura_Apparel_Keith</defName>
+		<label>Duke's Suit</label>
+		<description>A tailored suit ensemble worn with a knee-length blazer, ideal for upper-class noblemen flirting with pretty maidens or returning dropped hankerchiefs.</description>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Apparel/Hamefura_Apparel_Keith/Hamefura_Apparel_Keith</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>14000</WorkToMake>
+			<MaxHitPoints>450</MaxHitPoints>
+			<Mass>3.3</Mass>
+			<StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>9.3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.18</SocialImpact>
+			<NegotiationAbility>0.1</NegotiationAbility>
+		</equippedStatOffsets>
+		<costStuffCount>150</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_Keith/Hamefura_Apparel_Keith</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier7</li>
+			</tags>
+			<gender>Male</gender>
+		</apparel>
+	</ThingDef>
+
+	<!-- Marchioness's Dress (Mary) -->
+
+	<ThingDef ParentName="ApparelHamefuraNobleBase">
+		<defName>Hamefura_Apparel_Mary</defName>
+		<label>Marchioness's Dress</label>
+		<description>A floral-themed ball gown paired with a ruffled jacket, perfect for middle-class noblewomen navigating aristocratic intrigue or eloping with secret lovers.</description>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Apparel/Hamefura_Apparel_Mary/Hamefura_Apparel_Mary</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>16000</WorkToMake>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Mass>5.5</Mass>
+			<StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>12</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.16</SocialImpact>
+			<NegotiationAbility>0.1</NegotiationAbility>
+		</equippedStatOffsets>
+		<costStuffCount>250</costStuffCount>
+		<costList>
+			<Steel>15</Steel>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_Mary/Hamefura_Apparel_Mary</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier6</li>
+			</tags>
+			<gender>Female</gender>
+		</apparel>
+	</ThingDef>
+
+	<!-- Prince's Trenchcoat Suit (Alan) -->
+
+	<ThingDef ParentName="ApparelHamefuraNobleBase">
+		<defName>Hamefura_Apparel_Alan</defName>
+		<label>Prince's Trenchcoat Suit</label>
+		<description>A semi-formal suit with a leather trench coat, scarf and knee-high boots, worn by male Royalty on field excursions.</description>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Apparel/Hamefura_Apparel_Alan/Hamefura_Apparel_Alan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>14000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>3.5</Mass>
+			<StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>1.06</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.95</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>7.8</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.17</SocialImpact>
+			<NegotiationAbility>0.1</NegotiationAbility>
+		</equippedStatOffsets>
+		<costStuffCount>210</costStuffCount>
+		<costList>
+			<Silver>1</Silver>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_Alan/Hamefura_Apparel_Alan</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier7</li>
+			</tags>
+			<gender>Male</gender>
+		</apparel>
+	</ThingDef>
+
+	<!-- Countess's Dress (Sophia) -->
+
+	<ThingDef ParentName="ApparelHamefuraNobleBase">
+		<defName>Hamefura_Apparel_Sophia</defName>
+		<label>Countess's Dress</label>
+		<description>A crinoline dress adorned with a capelet, perfect for middle-class noblewomen indulging in steamy romance novels.</description>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Apparel/Hamefura_Apparel_Sophia/Hamefura_Apparel_Sophia</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>16000</WorkToMake>
+			<MaxHitPoints>450</MaxHitPoints>
+			<Mass>5.5</Mass>
+			<StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>12</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.14</SocialImpact>
+			<NegotiationAbility>0.1</NegotiationAbility>
+		</equippedStatOffsets>
+		<costStuffCount>250</costStuffCount>
+		<costList>
+			<Steel>15</Steel>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_Sophia/Hamefura_Apparel_Sophia</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier6</li>
+			</tags>
+			<gender>Female</gender>
+		</apparel>
+	</ThingDef>
+
+	<!-- Prime Minister's Suit (Nicol) -->
+
+	<ThingDef ParentName="ApparelHamefuraNobleBase">
+		<defName>Hamefura_Apparel_Nicol</defName>
+		<label>Prime Minister's Suit</label>
+		<description>A tailored suit ensemble with a knee-length tailcoat, worn by the most trusted of advisors to Royalty.</description>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>14</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Apparel/Hamefura_Apparel_Nicol/Hamefura_Apparel_Nicol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>14000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>3.3</Mass>
+			<StuffEffectMultiplierArmor>0.43</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.62</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>9.3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.14</SocialImpact>
+			<NegotiationAbility>0.25</NegotiationAbility>
+		</equippedStatOffsets>
+		<costStuffCount>210</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_Nicol/Hamefura_Apparel_Nicol</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier6</li>
+			</tags>
+			<gender>Male</gender>
+		</apparel>
+	</ThingDef>
+
+	<!-- Royal Cape -->
+
+	<ThingDef ParentName="ApparelHamefuraNobleBase">
+		<defName>Hamefura_Apparel_RoyalCape</defName>
+		<label>Royal Cape</label>
+		<description>A sleeveless outer garment which drapes the wearer's back and shoulder, lighter and less constraining than a full cloak or robe. Typically worn by male Royalty as a symbol of authority.</description>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>16</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Apparel/Hamefura_Apparel_RoyalCape/Hamefura_Apparel_RoyalCape</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>3500</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>0.6</Mass>
+			<StuffEffectMultiplierArmor>0.6</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.6</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.2</SocialImpact>
+			<NegotiationAbility>0.2</NegotiationAbility>
+		</equippedStatOffsets>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Gold>1</Gold>
+		</costList>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_RoyalCape/Hamefura_Apparel_RoyalCape</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>Cape</li>
+				<li>Royal</li>
+				<li>RoyalTier7</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<!-- Peasant's Dress (Maria) -->
+
+	<ThingDef ParentName="ApparelHamefuraCommonerBase">
+		<defName>Hamefura_Apparel_Maria</defName>
+		<label>Peasant's Dress</label>
+		<description>A humble and demure blouse and dress, practical for domestic and manual labor, while also presentable for surprise visits by nobility.</description>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Apparel/Hamefura_Apparel_Maria/Hamefura_Apparel_Maria</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<MaxHitPoints>350</MaxHitPoints>
+			<Mass>1.5</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>4.5</EquipDelay>
+		</statBases>
+		<costStuffCount>150</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_Maria/Hamefura_Apparel_Maria</wornGraphicPath>
+			<layers>
+				<li>OnSkin</li>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>IndustrialAdvanced</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<gender>Female</gender>
+		</apparel>
+	</ThingDef>
+
+	<!-- Garden Overalls -->
+
+	<ThingDef ParentName="ApparelHamefuraCommonerBase">
+		<defName>Hamefura_Apparel_Gardener</defName>
+		<label>Garden Overalls</label>
+		<description>A hard-wearing set of overalls suited for agricultural fieldwork, at the cost of slightly reduced social appeal for those wearing it.</description>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>5</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Apparel/Hamefura_Apparel_Gardener/Hamefura_Apparel_Gardener</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Mass>1</Mass>
+			<StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>-0.1</SocialImpact>
+			<NegotiationAbility>-0.05</NegotiationAbility>
+		</equippedStatOffsets>
+		<costStuffCount>100</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_Gardener/Hamefura_Apparel_Gardener</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>IndustrialAdvanced</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<!-- Eggplant Onesie -->
+
+	<ThingDef ParentName="ApparelHamefuraCommonerBase">
+		<defName>Hamefura_Apparel_PjEggplant</defName>
+		<label>Eggplant Onesie</label>
+		<description>A hooded full-body sleepwear patterned after eggplants, warm and comfortable, but otherwise inappropriate for most social settings.</description>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>4</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<graphicData>
+			<texPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>0.8</Mass>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>-0.2</SocialImpact>
+			<NegotiationAbility>-0.1</NegotiationAbility>
+		</equippedStatOffsets>
+		<costStuffCount>100</costStuffCount>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>FullHead</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+				<li>OnSkin</li>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>IndustrialBasic</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+</Defs>
