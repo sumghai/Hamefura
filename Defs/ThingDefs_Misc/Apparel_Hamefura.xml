@@ -595,6 +595,13 @@
 				<li>IndustrialBasic</li>
 			</tags>
 		</apparel>
+		<comps>
+			<li Class="Hamefura.CompProperties_ApparelDrawAttachedHeadgear">
+				<headgearGraphicData>
+					<texPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant_Hood</texPath>
+				</headgearGraphicData>
+			</li>
+		</comps>
 	</ThingDef>
 
 </Defs>
