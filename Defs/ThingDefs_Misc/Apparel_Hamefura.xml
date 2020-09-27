@@ -551,6 +551,7 @@
 	<ThingDef ParentName="ApparelHamefuraCommonerBase">
 		<defName>Hamefura_Apparel_PjEggplant</defName>
 		<label>Eggplant Onesie</label>
+		<thingClass>Apparel</thingClass>
 		<description>A hooded full-body sleepwear patterned after eggplants, warm and comfortable, but otherwise inappropriate for most social settings.</description>
 		<recipeMaker>
 			<skillRequirements>
@@ -577,9 +578,9 @@
 		<costStuffCount>100</costStuffCount>
 		<apparel>
 			<bodyPartGroups>
-				<li>Torso</li>
 				<li>FullHead</li>
 				<li>Neck</li>
+				<li>Torso</li>
 				<li>Shoulders</li>
 				<li>Arms</li>
 				<li>Legs</li>
@@ -596,12 +597,34 @@
 			</tags>
 		</apparel>
 		<comps>
-			<li Class="Hamefura.CompProperties_ApparelDrawAttachedHeadgear">
-				<headgearGraphicData>
-					<texPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant_Hood</texPath>
-				</headgearGraphicData>
+			<li Class="Hamefura.CompProperties_ApparelWithAttachedHeadgear">
+				<attachedHeadgearDef>Hamefura_Apparel_PjEggplant_Hood</attachedHeadgearDef>
+				<toggleUiIconPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant_Hood</toggleUiIconPath>
 			</li>
 		</comps>
+	</ThingDef>
+	
+	<!-- Hood for Eggplant Onesie (This is a dummy ThingDef, which will get called programmatically) -->
+	<ThingDef ParentName="HatBase">
+		<defName>Hamefura_Apparel_PjEggplant_Hood</defName>
+		<label>hood</label>
+		<description>Hood for the Eggplant Onesie.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant_Hood_south</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<alwaysHaulable>False</alwaysHaulable>
+		<menuHidden>true</menuHidden>
+		<apparel>
+			<bodyPartGroups>
+				<li>FullHead</li>
+				<li>Neck</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant_Hood</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+		</apparel>
 	</ThingDef>
 
 </Defs>

@@ -298,8 +298,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompApparelDrawAttachedHeadgear.cs" />
-    <Compile Include="CompProperties_ApparelDrawAttachedHeadgear.cs" />
+    <Compile Include="CompApparelWithAttachedHeadgear.cs" />
+    <Compile Include="CompProperties_ApparelWithAttachedHeadgear.cs" />
     <Compile Include="HamefuraMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
