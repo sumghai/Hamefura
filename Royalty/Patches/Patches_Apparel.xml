@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name = "ApparelHamefuraNobleBase"]</xpath>
+				<value>
+					<recipeMaker>
+						<researchPrerequisite>NobleApparel</researchPrerequisite>
+					</recipeMaker>
+					<thingCategories Inherit="False">
+						<li>ApparelNoble</li>
+					</thingCategories>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name = "ApparelHamefuraRoyalBase"]</xpath>
+				<value>
+					<recipeMaker>
+						<researchPrerequisite>RoyalApparel</researchPrerequisite>
+					</recipeMaker>
+					<thingCategories Inherit="False">
+						<li>ApparelNoble</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

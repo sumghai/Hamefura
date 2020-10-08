@@ -21,12 +21,10 @@
 		</apparel>
 	</ThingDef>
 
+	<!-- Placeholder abstract classes that serve as targets for Royalty DLC-specific patches-->
 	<ThingDef Name="ApparelHamefuraNobleBase" ParentName="ApparelHamefuraCommonerBase" Abstract="True" />
-	<!--
-		Placeholder: This provides a target for patches that detect if the Royalty DLC is active, and modifies noble apparel by:
-		- replacing ComplexClothing with NobleApparel for researchPrerequisite
-		- replacing Apparel with ApparelNoble for thingCategories
-	-->
+	
+	<ThingDef Name="ApparelHamefuraRoyalBase" ParentName="ApparelHamefuraCommonerBase" Abstract="True" />
 
 	<!-- Duchess's Dress (Catarina) -->
 
@@ -84,7 +82,7 @@
 
 	<!-- Prince's Suit (Geordo) -->
 
-	<ThingDef ParentName="ApparelHamefuraNobleBase">
+	<ThingDef ParentName="ApparelHamefuraRoyalBase">
 		<defName>Hamefura_Apparel_Geordo</defName>
 		<label>Prince's Suit</label>
 		<description>A vested morning suit with tailcoat, decorated with gold trim and tailored to exacting specifications, reserved for male Royalty.</description>
@@ -240,7 +238,7 @@
 
 	<!-- Prince's Trenchcoat Suit (Alan) -->
 
-	<ThingDef ParentName="ApparelHamefuraNobleBase">
+	<ThingDef ParentName="ApparelHamefuraRoyalBase">
 		<defName>Hamefura_Apparel_Alan</defName>
 		<label>Prince's Trenchcoat Suit</label>
 		<description>A semi-formal suit with a leather trench coat, scarf and knee-high boots, worn by male Royalty on field excursions.</description>
@@ -397,7 +395,7 @@
 
 	<!-- Royal Cape -->
 
-	<ThingDef ParentName="ApparelHamefuraNobleBase">
+	<ThingDef ParentName="ApparelHamefuraRoyalBase">
 		<defName>Hamefura_Apparel_RoyalCape</defName>
 		<label>Royal Cape</label>
 		<description>A sleeveless outer garment which drapes the wearer's back and shoulder, lighter and less constraining than a full cloak or robe. Typically worn by male Royalty as a symbol of authority.</description>
