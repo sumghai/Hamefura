@@ -18,10 +18,12 @@
 		</thingCategories>
 		<apparel>
 			<useWornGraphicMask>true</useWornGraphicMask>
+			<canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
 		</apparel>
 	</ThingDef>
 
 	<!-- Placeholder abstract classes that serve as targets for Royalty DLC-specific patches-->
+
 	<ThingDef Name="ApparelHamefuraNobleBase" ParentName="ApparelHamefuraCommonerBase" Abstract="True" />
 	
 	<ThingDef Name="ApparelHamefuraRoyalBase" ParentName="ApparelHamefuraCommonerBase" Abstract="True" />
