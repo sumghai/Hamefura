@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Combat Extended</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+
+				<!-- ========== Patch Weapons ========== -->
+
+				<!-- Royal Sword -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Hamefura_RoyalSword"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>handle</label>
+								<capacities>
+									<li>Poke</li>
+								</capacities>
+								<power>4</power>
+								<cooldownTime>1.78</cooldownTime>
+								<chanceFactor>0.10</chanceFactor>
+								<armorPenetrationBlunt>1.0</armorPenetrationBlunt>
+								<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>point</label>
+								<capacities>
+									<li>Stab</li>
+								</capacities>
+								<power>19</power>
+								<cooldownTime>1.78</cooldownTime>
+								<chanceFactor>0.60</chanceFactor>
+								<armorPenetrationBlunt>1.0</armorPenetrationBlunt>
+								<armorPenetrationSharp>2.0</armorPenetrationSharp>
+								<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>edge</label>
+								<capacities>
+									<li>Cut</li>
+								</capacities>
+								<power>41</power>
+								<cooldownTime>1.71</cooldownTime>
+								<chanceFactor>0.30</chanceFactor>
+								<armorPenetrationBlunt>3.24</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.72</armorPenetrationSharp>
+								<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+							</li>
+						</tools>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Hamefura_RoyalSword"]/statBases</xpath>
+					<value>
+						<Bulk>8</Bulk>
+						<MeleeCounterParryBonus>0.87</MeleeCounterParryBonus>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Hamefura_RoyalSword"]/equippedStatOffsets</xpath>
+					<value>
+						<MeleeCritChance>0.5</MeleeCritChance>
+						<MeleeParryChance>0.65</MeleeParryChance>
+						<MeleeDodgeChance>0.43</MeleeDodgeChance>	
+					</value>		
+				</li>
+
+				<!-- Garden Hoe -->
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Hamefura_GardenHoe"]/tools</xpath>
+					<value>
+						<tools>
+							<li Class="CombatExtended.ToolCE">
+								<label>shaft</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>7</power>
+								<cooldownTime>1.35</cooldownTime>
+								<chanceFactor>0.15</chanceFactor>
+								<armorPenetrationBlunt>2.25</armorPenetrationBlunt>
+								<linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>shaft</label>
+								<capacities>
+									<li>Poke</li>
+								</capacities>
+								<power>4</power>
+								<cooldownTime>1.78</cooldownTime>
+								<chanceFactor>0.05</chanceFactor>
+								<armorPenetrationBlunt>1</armorPenetrationBlunt>
+								<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>edge</label>
+								<capacities>
+									<li>Cut</li>
+								</capacities>
+								<power>10</power>
+								<cooldownTime>1.18</cooldownTime>
+								<armorPenetrationBlunt>0.36</armorPenetrationBlunt>
+								<armorPenetrationSharp>0.32</armorPenetrationSharp>
+								<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+							</li>
+						</tools>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Hamefura_GardenHoe"]/statBases</xpath>
+					<value>
+						<Bulk>8</Bulk>
+						<MeleeCounterParryBonus>1.68</MeleeCounterParryBonus>
+					</value>
+				</li>
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Hamefura_GardenHoe"]/equippedStatOffsets</xpath>
+					<value>
+						<MeleeCritChance>0.17</MeleeCritChance>
+						<MeleeParryChance>1.45</MeleeParryChance>
+						<MeleeDodgeChance>0.9</MeleeDodgeChance>
+					</value>		
+				</li>
+
+				<!-- ========== Patch Apparel ========== -->
+
+				<!-- Noblewomens' dresses -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[
+						defName="Hamefura_Apparel_Catarina" or
+						defName="Hamefura_Apparel_Mary" or
+						defName="Hamefura_Apparel_Sophia"
+					]/statBases</xpath>
+					<value>
+						<Bulk>10</Bulk>
+						<WornBulk>8</WornBulk>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[
+						defName="Hamefura_Apparel_Catarina" or
+						defName="Hamefura_Apparel_Mary" or
+						defName="Hamefura_Apparel_Sophia"
+					]/statBases/StuffEffectMultiplierArmor</xpath>
+					<value>
+						<!-- Accounts for added thickness of corsets and petticoats -->
+						<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+					</value>
+				</li>
+
+				<!-- Noblemen's morning suits -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[
+						defName="Hamefura_Apparel_Geordo" or
+						defName="Hamefura_Apparel_Nicol"
+					]/statBases</xpath>
+					<value>
+						<Bulk>6</Bulk>
+						<WornBulk>3</WornBulk>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[
+						defName="Hamefura_Apparel_Geordo" or
+						defName="Hamefura_Apparel_Nicol"
+					]/statBases/StuffEffectMultiplierArmor</xpath>
+					<value>
+						<!-- Accounts for multiple layers of clothing (e.g. vest, suit jacket) -->
+						<StuffEffectMultiplierArmor>1.5</StuffEffectMultiplierArmor>
+					</value>
+				</li>
+
+				<!-- Duke's Suit -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Hamefura_Apparel_Keith"]/statBases</xpath>
+					<value>
+						<Bulk>8</Bulk>
+						<WornBulk>5</WornBulk>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Hamefura_Apparel_Keith"]/statBases/StuffEffectMultiplierArmor</xpath>
+					<value>
+						<!-- Long jacket is much thinner than a regular trenchcoat -->
+						<StuffEffectMultiplierArmor>2</StuffEffectMultiplierArmor>
+					</value>
+				</li>
+
+				<!-- Prince's Trenchcoat Suit -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Hamefura_Apparel_Alan"]/statBases</xpath>
+					<value>
+						<Bulk>8</Bulk>
+						<WornBulk>5</WornBulk>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Hamefura_Apparel_Alan"]/statBases/StuffEffectMultiplierArmor</xpath>
+					<value>
+						<!-- Equivalent to vanilla duster -->
+						<StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+					</value>
+				</li>
+
+				<!-- Royal Cape -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Hamefura_Apparel_RoyalCape"]/statBases</xpath>
+					<value>
+						<Bulk>5</Bulk>
+						<WornBulk>1.5</WornBulk>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Hamefura_Apparel_RoyalCape"]/statBases/StuffEffectMultiplierArmor</xpath>
+					<value>
+						<!-- Thinner than vanilla cape -->
+						<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+					</value>
+				</li>
+
+				<!-- Peasant's Dress -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Hamefura_Apparel_Maria"]/statBases</xpath>
+					<value>
+						<Bulk>6</Bulk>
+						<WornBulk>5</WornBulk>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Hamefura_Apparel_Maria"]/statBases/StuffEffectMultiplierArmor</xpath>
+					<value>
+						<!-- Accounts for multiple layers of clothing (e.g. blouse, apron dress) -->
+						<StuffEffectMultiplierArmor>1.5</StuffEffectMultiplierArmor>
+					</value>
+				</li>
+
+				<!-- Garden Overalls -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Hamefura_Apparel_Gardener"]/statBases</xpath>
+					<value>
+						<Bulk>8</Bulk>
+						<WornBulk>3</WornBulk>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Hamefura_Apparel_Gardener"]/statBases/StuffEffectMultiplierArmor</xpath>
+					<value>
+						<!-- Equivalent to vanilla duster -->
+						<StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+					</value>
+				</li>
+
+				<!-- Eggplant Onesie -->
+
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Hamefura_Apparel_PjEggplant"]/statBases</xpath>
+					<value>
+						<Bulk>5</Bulk>
+						<WornBulk>2</WornBulk>
+					</value>
+				</li>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="Hamefura_Apparel_PjEggplant"]/statBases/StuffEffectMultiplierArmor</xpath>
+					<value>
+						<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+					</value>
+				</li>
+
+			</operations>
+		</match>
+	</Operation>
+</Patch>
