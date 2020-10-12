@@ -79,7 +79,7 @@
 					<value>
 						<tools>
 							<li Class="CombatExtended.ToolCE">
-								<label>shaft</label>
+								<label>handle</label>
 								<capacities>
 									<li>Blunt</li>
 								</capacities>
@@ -90,7 +90,7 @@
 								<linkedBodyPartsGroup>Shaft</linkedBodyPartsGroup>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>shaft</label>
+								<label>handle</label>
 								<capacities>
 									<li>Poke</li>
 								</capacities>
@@ -101,7 +101,18 @@
 								<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
 							</li>
 							<li Class="CombatExtended.ToolCE">
-								<label>edge</label>
+								<label>hoe head</label>
+								<capacities>
+									<li>Blunt</li>
+								</capacities>
+								<power>11</power>
+								<cooldownTime>3.48</cooldownTime>
+								<chanceFactor>1.33</chanceFactor>
+								<armorPenetrationBlunt>4</armorPenetrationBlunt>
+								<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+							</li>
+							<li Class="CombatExtended.ToolCE">
+								<label>hoe blade</label>
 								<capacities>
 									<li>Cut</li>
 								</capacities>
