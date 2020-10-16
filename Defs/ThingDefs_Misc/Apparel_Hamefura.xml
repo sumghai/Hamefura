@@ -33,7 +33,7 @@
 	<ThingDef ParentName="ApparelHamefuraNobleBase">
 		<defName>Hamefura_Apparel_Catarina</defName>
 		<label>Duchess's Dress</label>
-		<description>A short-sleeved cravat blouse paired with a panelled calf-length crinoline skirt, befitting upper-class noblewomen while being practical for all kinds of mischief.</description>
+		<description>A short-sleeved jabot blouse paired with a calf-length crinoline skirt, befitting eccentric upper-class noblewomen.</description>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>14</Crafting>
@@ -87,7 +87,7 @@
 	<ThingDef ParentName="ApparelHamefuraRoyalBase">
 		<defName>Hamefura_Apparel_Geordo</defName>
 		<label>Prince's Suit</label>
-		<description>A vested morning suit with tailcoat, decorated with gold trim and tailored to exacting specifications, reserved for male Royalty.</description>
+		<description>A gold-trimmed morning suit with tailcoat, tailored to exacting specifications for male Royalty.</description>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>16</Crafting>
@@ -140,7 +140,7 @@
 	<ThingDef ParentName="ApparelHamefuraNobleBase">
 		<defName>Hamefura_Apparel_Keith</defName>
 		<label>Duke's Suit</label>
-		<description>A tailored suit ensemble worn with a knee-length blazer, ideal for upper-class noblemen flirting with pretty maidens or returning dropped hankerchiefs.</description>
+		<description>A tailored suit ensemble worn with a knee-length blazer, ideal for upper-class noblemen flirting with pretty maidens with lost hankerchiefs.</description>
 		<recipeMaker>
 			<skillRequirements>
 				<Crafting>14</Crafting>
