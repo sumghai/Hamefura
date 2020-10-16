@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Duchess's Dress -->
+	<Hamefura_Apparel_Catarina.label>jp-trans-placeholder</Hamefura_Apparel_Catarina.label>
+
+	<!-- EN: A short-sleeved jabot blouse paired with a calf-length crinoline skirt, befitting eccentric upper-class noblewomen. -->
+	<Hamefura_Apparel_Catarina.description>jp-trans-placeholder</Hamefura_Apparel_Catarina.description>
+
+	<!-- EN: Prince's Suit -->
+	<Hamefura_Apparel_Geordo.label>jp-trans-placeholder</Hamefura_Apparel_Geordo.label>
+
+	<!-- EN: A gold-trimmed morning suit with tailcoat, tailored to exacting specifications for male Royalty. -->
+	<Hamefura_Apparel_Geordo.description>jp-trans-placeholder</Hamefura_Apparel_Geordo.description>
+
+	<!-- EN: Duke's Suit -->
+	<Hamefura_Apparel_Keith.label>jp-trans-placeholder</Hamefura_Apparel_Keith.label>
+
+	<!-- EN: A tailored suit ensemble worn with a knee-length blazer, ideal for upper-class noblemen flirting with pretty maidens with lost hankerchiefs. -->
+	<Hamefura_Apparel_Keith.description>jp-trans-placeholder</Hamefura_Apparel_Keith.description>
+
+	<!-- EN: Marchioness's Dress -->
+	<Hamefura_Apparel_Mary.label>jp-trans-placeholder</Hamefura_Apparel_Mary.label>
+
+	<!-- EN: A floral-themed ball gown paired with a ruffled short jacket, perfect for middle-class noblewomen navigating court intrigue or trysts with secret lovers. -->
+	<Hamefura_Apparel_Mary.description>jp-trans-placeholder</Hamefura_Apparel_Mary.description>
+
+	<!-- EN: Prince's Trenchcoat Suit -->
+	<Hamefura_Apparel_Alan.label>jp-trans-placeholder</Hamefura_Apparel_Alan.label>
+
+	<!-- EN: A semi-formal suit with a leather trench coat, scarf and knee-high boots, worn by male Royalty on field excursions. -->
+	<Hamefura_Apparel_Alan.description>jp-trans-placeholder</Hamefura_Apparel_Alan.description>
+
+	<!-- EN: Countess's Dress -->
+	<Hamefura_Apparel_Sophia.label>jp-trans-placeholder</Hamefura_Apparel_Sophia.label>
+
+	<!-- EN: A crinoline dress adorned with a capelet, perfect for middle-class noblewomen indulging in steamy romance novels. -->
+	<Hamefura_Apparel_Sophia.description>jp-trans-placeholder</Hamefura_Apparel_Sophia.description>
+
+	<!-- EN: Prime Minister's Suit -->
+	<Hamefura_Apparel_Nicol.label>jp-trans-placeholder</Hamefura_Apparel_Nicol.label>
+
+	<!-- EN: A tailored suit ensemble with a knee-length tailcoat, worn by the most trusted of advisors to Royalty. -->
+	<Hamefura_Apparel_Nicol.description>jp-trans-placeholder</Hamefura_Apparel_Nicol.description>
+
+	<!-- EN: Royal Cape -->
+	<Hamefura_Apparel_RoyalCape.label>jp-trans-placeholder</Hamefura_Apparel_RoyalCape.label>
+
+	<!-- EN: A sleeveless outer garment which drapes the wearer's back and shoulder, lighter and less constraining than a full cloak or robe. Typically worn by male Royalty as a symbol of authority. -->
+	<Hamefura_Apparel_RoyalCape.description>jp-trans-placeholder</Hamefura_Apparel_RoyalCape.description>
+
+	<!-- EN: Peasant's Dress -->
+	<Hamefura_Apparel_Maria.label>jp-trans-placeholder</Hamefura_Apparel_Maria.label>
+
+	<!-- EN: A humble and demure blouse and dress, practical for domestic and manual labor, while also presentable for surprise visits by nobility. -->
+	<Hamefura_Apparel_Maria.description>jp-trans-placeholder</Hamefura_Apparel_Maria.description>
+
+	<!-- EN: Garden Overalls -->
+	<Hamefura_Apparel_Gardener.label>jp-trans-placeholder</Hamefura_Apparel_Gardener.label>
+
+	<!-- EN: A hard-wearing set of overalls suited for agricultural fieldwork, at the cost of slightly reduced social appeal for those wearing it. -->
+	<Hamefura_Apparel_Gardener.description>jp-trans-placeholder</Hamefura_Apparel_Gardener.description>
+
+	<!-- EN: Eggplant Onesie -->
+	<Hamefura_Apparel_PjEggplant.label>jp-trans-placeholder</Hamefura_Apparel_PjEggplant.label>
+
+	<!-- EN: A hooded full-body sleepwear patterned after eggplants, warm and comfortable, but otherwise inappropriate for most social settings. -->
+	<Hamefura_Apparel_PjEggplant.description>jp-trans-placeholder</Hamefura_Apparel_PjEggplant.description>
+
+	<!-- EN: hood -->
+	<Hamefura_Apparel_PjEggplant_Hood.label>jp-trans-placeholder</Hamefura_Apparel_PjEggplant_Hood.label>
+
+	<!-- EN: Hood for the Eggplant Onesie. -->
+	<Hamefura_Apparel_PjEggplant_Hood.description>jp-trans-placeholder</Hamefura_Apparel_PjEggplant_Hood.description>
+
+</LanguageData>
