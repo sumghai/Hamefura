@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<!-- EN: Wear {0} -->
-	<Hamefura_ToggleableHeadgearCommand_Label>jp-trans-placeholder{0}</Hamefura_ToggleableHeadgearCommand_Label>
+  <!-- EN: Wear {0} -->
+  <Hamefura_ToggleableHeadgearCommand_Label>{0}を着用</Hamefura_ToggleableHeadgearCommand_Label>
 
-	<!-- EN: Toggle wearing {0} attached to apparel. -->
-	<Hamefura_ToggleableHeadgearCommand_Desc>jp-trans-placeholder{0}。</Hamefura_ToggleableHeadgearCommand_Desc>
+  <!-- EN: Toggle wearing {0} attached to apparel. -->
+  <Hamefura_ToggleableHeadgearCommand_Desc>衣服に取り付けられた{0}を着用するかを切り替えます。</Hamefura_ToggleableHeadgearCommand_Desc>
 
 </LanguageData>
