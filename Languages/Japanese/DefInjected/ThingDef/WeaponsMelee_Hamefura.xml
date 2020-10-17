@@ -2,33 +2,33 @@
 <LanguageData>
 
 	<!-- EN: Royal Sword -->
-	<Hamefura_RoyalSword.label>jp-trans-placeholder</Hamefura_RoyalSword.label>
-	
+	<Hamefura_RoyalSword.label>王家の剣</Hamefura_RoyalSword.label>
+
 	<!-- EN: An longsword with an ornate hilt, typically carried by male members of the Royal Family of Sorcier as a symbol of authority. Good for stabbing or slashing. -->
-	<Hamefura_RoyalSword.description>jp-trans-placeholder</Hamefura_RoyalSword.description>
-	
+	<Hamefura_RoyalSword.description>柄に華やかな装飾がされたロングソードです。通常、権威の象徴としてソルシエ王国スティアート王家の男性が持ちます。刺したり斬ったりするのに適しています。</Hamefura_RoyalSword.description>
+
 	<!-- EN: handle -->
-	<Hamefura_RoyalSword.tools.handle.label>jp-trans-placeholder</Hamefura_RoyalSword.tools.handle.label>
-	
+	<Hamefura_RoyalSword.tools.handle.label>柄</Hamefura_RoyalSword.tools.handle.label>
+
 	<!-- EN: point -->
-	<Hamefura_RoyalSword.tools.point.label>jp-trans-placeholder</Hamefura_RoyalSword.tools.point.label>
-	
+	<Hamefura_RoyalSword.tools.point.label>先</Hamefura_RoyalSword.tools.point.label>
+
 	<!-- EN: edge -->
-	<Hamefura_RoyalSword.tools.edge.label>jp-trans-placeholder</Hamefura_RoyalSword.tools.edge.label>
-	
+	<Hamefura_RoyalSword.tools.edge.label>刃</Hamefura_RoyalSword.tools.edge.label>
+
 	<!-- EN: Garden Hoe -->
-	<Hamefura_GardenHoe.label>jp-trans-placeholder</Hamefura_GardenHoe.label>
-	
+	<Hamefura_GardenHoe.label>農業用クワ</Hamefura_GardenHoe.label>
+
 	<!-- EN: A common agricultural hand tool used for breaking up soil, removing weeds and harvesting root vegetables. In a pinch, it can also be used as a crude weapon. -->
-	<Hamefura_GardenHoe.description>jp-trans-placeholder</Hamefura_GardenHoe.description>
-	
+	<Hamefura_GardenHoe.description>土を耕したり、雑草を取り除いたり、根菜を収穫するための一般的な農作業用の道具です。いざとなれば、粗末な武器としても使えます。</Hamefura_GardenHoe.description>
+
 	<!-- EN: shaft -->
-	<Hamefura_GardenHoe.tools.handle.label>jp-trans-placeholder</Hamefura_GardenHoe.tools.handle.label>
-	
+	<Hamefura_GardenHoe.tools.handle.label>軸</Hamefura_GardenHoe.tools.handle.label>
+
 	<!-- EN: hoe head -->
-	<Hamefura_GardenHoe.tools.hoe_head.label>jp-trans-placeholder</Hamefura_GardenHoe.tools.hoe_head.label>
-	
+	<Hamefura_GardenHoe.tools.hoe_head.label>頭</Hamefura_GardenHoe.tools.hoe_head.label>
+
 	<!-- EN: hoe blade -->
-	<Hamefura_GardenHoe.tools.hoe_blade.label>jp-trans-placeholder</Hamefura_GardenHoe.tools.hoe_blade.label>
+	<Hamefura_GardenHoe.tools.hoe_blade.label>刃</Hamefura_GardenHoe.tools.hoe_blade.label>
 
 </LanguageData>

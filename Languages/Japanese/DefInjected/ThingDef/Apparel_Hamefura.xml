@@ -2,75 +2,75 @@
 <LanguageData>
 
 	<!-- EN: Duchess's Dress -->
-	<Hamefura_Apparel_Catarina.label>jp-trans-placeholder</Hamefura_Apparel_Catarina.label>
+	<Hamefura_Apparel_Catarina.label>公爵令嬢のドレス</Hamefura_Apparel_Catarina.label>
 
 	<!-- EN: A short-sleeved jabot blouse paired with a calf-length crinoline skirt, befitting eccentric upper-class noblewomen. -->
-	<Hamefura_Apparel_Catarina.description>jp-trans-placeholder</Hamefura_Apparel_Catarina.description>
+	<Hamefura_Apparel_Catarina.description>上流階級の変わり者な貴族女性にふさわしい、ふくらはぎ丈のクリノリンスカートと組み合わせた半袖のジャボットブラウスです。(カタリナ)</Hamefura_Apparel_Catarina.description>
 
 	<!-- EN: Prince's Suit -->
-	<Hamefura_Apparel_Geordo.label>jp-trans-placeholder</Hamefura_Apparel_Geordo.label>
+	<Hamefura_Apparel_Geordo.label>王子のスーツ</Hamefura_Apparel_Geordo.label>
 
 	<!-- EN: A gold-trimmed morning suit with tailcoat, tailored to exacting specifications for male Royalty. -->
-	<Hamefura_Apparel_Geordo.description>jp-trans-placeholder</Hamefura_Apparel_Geordo.description>
+	<Hamefura_Apparel_Geordo.description>男性王族用に厳格な仕様に合わせて調整した、燕尾服付きの金で刺繍されたモーニングスーツです。(ジオルド)</Hamefura_Apparel_Geordo.description>
 
 	<!-- EN: Duke's Suit -->
-	<Hamefura_Apparel_Keith.label>jp-trans-placeholder</Hamefura_Apparel_Keith.label>
+	<Hamefura_Apparel_Keith.label>公爵令息のスーツ</Hamefura_Apparel_Keith.label>
 
 	<!-- EN: A tailored suit ensemble worn with a knee-length blazer, ideal for upper-class noblemen flirting with pretty maidens with lost hankerchiefs. -->
-	<Hamefura_Apparel_Keith.description>jp-trans-placeholder</Hamefura_Apparel_Keith.description>
+	<Hamefura_Apparel_Keith.description>膝下丈のブレザーと合わせたテーラードスーツは、ハンカチを落としたかわいい乙女をナンパする様なチャラい上級貴族にお似合いです。(キース)</Hamefura_Apparel_Keith.description>
 
 	<!-- EN: Marchioness's Dress -->
-	<Hamefura_Apparel_Mary.label>jp-trans-placeholder</Hamefura_Apparel_Mary.label>
+	<Hamefura_Apparel_Mary.label>侯爵令嬢のドレス</Hamefura_Apparel_Mary.label>
 
 	<!-- EN: A floral-themed ball gown paired with a ruffled short jacket, perfect for middle-class noblewomen navigating court intrigue or trysts with secret lovers. -->
-	<Hamefura_Apparel_Mary.description>jp-trans-placeholder</Hamefura_Apparel_Mary.description>
+	<Hamefura_Apparel_Mary.description>花をテーマにしたボールガウンにフリルの付いた短いジャケットを組み合わせると、中産階級の貴族女性が宮廷での陰謀や恋人との密会を楽しむのにぴったりです。(メアリ)</Hamefura_Apparel_Mary.description>
 
 	<!-- EN: Prince's Trenchcoat Suit -->
-	<Hamefura_Apparel_Alan.label>jp-trans-placeholder</Hamefura_Apparel_Alan.label>
+	<Hamefura_Apparel_Alan.label>王子のトレンチコート</Hamefura_Apparel_Alan.label>
 
 	<!-- EN: A semi-formal suit with a leather trench coat, scarf and knee-high boots, worn by male Royalty on field excursions. -->
-	<Hamefura_Apparel_Alan.description>jp-trans-placeholder</Hamefura_Apparel_Alan.description>
+	<Hamefura_Apparel_Alan.description>男性王族が野外活動で着用する、革製のトレンチコートとスカーフとニーハイブーツで揃えたセミフォーマルなスーツです。(アラン)</Hamefura_Apparel_Alan.description>
 
 	<!-- EN: Countess's Dress -->
-	<Hamefura_Apparel_Sophia.label>jp-trans-placeholder</Hamefura_Apparel_Sophia.label>
+	<Hamefura_Apparel_Sophia.label>伯爵令嬢のドレス</Hamefura_Apparel_Sophia.label>
 
 	<!-- EN: A crinoline dress adorned with a capelet, perfect for middle-class noblewomen indulging in steamy romance novels. -->
-	<Hamefura_Apparel_Sophia.description>jp-trans-placeholder</Hamefura_Apparel_Sophia.description>
+	<Hamefura_Apparel_Sophia.description>華麗なロマンス小説に耽る中流貴族の女性にぴったりなケープレットをあしらったクリノリンドレスです。(ソフィア)</Hamefura_Apparel_Sophia.description>
 
 	<!-- EN: Prime Minister's Suit -->
-	<Hamefura_Apparel_Nicol.label>jp-trans-placeholder</Hamefura_Apparel_Nicol.label>
+	<Hamefura_Apparel_Nicol.label>宰相家のスーツ</Hamefura_Apparel_Nicol.label>
 
 	<!-- EN: A tailored suit ensemble with a knee-length tailcoat, worn by the most trusted of advisors to Royalty. -->
-	<Hamefura_Apparel_Nicol.description>jp-trans-placeholder</Hamefura_Apparel_Nicol.description>
+	<Hamefura_Apparel_Nicol.description>王家が最も信頼している宰相が着用する膝丈の燕尾服とテーラードスーツの組合せです。(ニコル)</Hamefura_Apparel_Nicol.description>
 
 	<!-- EN: Royal Cape -->
-	<Hamefura_Apparel_RoyalCape.label>jp-trans-placeholder</Hamefura_Apparel_RoyalCape.label>
+	<Hamefura_Apparel_RoyalCape.label>王族のケープ</Hamefura_Apparel_RoyalCape.label>
 
 	<!-- EN: A sleeveless outer garment which drapes the wearer's back and shoulder, lighter and less constraining than a full cloak or robe. Typically worn by male Royalty as a symbol of authority. -->
-	<Hamefura_Apparel_RoyalCape.description>jp-trans-placeholder</Hamefura_Apparel_RoyalCape.description>
+	<Hamefura_Apparel_RoyalCape.description>着用者の背中と肩を覆うノースリーブの上着で、典礼用マントやローブよりも軽く、窮屈さが少ないです。通常は、権威の象徴として男性王族が着用します。</Hamefura_Apparel_RoyalCape.description>
 
 	<!-- EN: Peasant's Dress -->
-	<Hamefura_Apparel_Maria.label>jp-trans-placeholder</Hamefura_Apparel_Maria.label>
+	<Hamefura_Apparel_Maria.label>農民のドレス</Hamefura_Apparel_Maria.label>
 
 	<!-- EN: A humble and demure blouse and dress, practical for domestic and manual labor, while also presentable for surprise visits by nobility. -->
-	<Hamefura_Apparel_Maria.description>jp-trans-placeholder</Hamefura_Apparel_Maria.description>
+	<Hamefura_Apparel_Maria.description>質素で控えめなブラウスとドレスで、家事や肉体労働に向いていてる実用的な服装ですが、貴族の突然の訪問にも失礼になりません。(マリア)</Hamefura_Apparel_Maria.description>
 
 	<!-- EN: Garden Overalls -->
-	<Hamefura_Apparel_Gardener.label>jp-trans-placeholder</Hamefura_Apparel_Gardener.label>
+	<Hamefura_Apparel_Gardener.label>農作業服</Hamefura_Apparel_Gardener.label>
 
 	<!-- EN: A hard-wearing set of overalls suited for agricultural fieldwork, at the cost of slightly reduced social appeal for those wearing it. -->
-	<Hamefura_Apparel_Gardener.description>jp-trans-placeholder</Hamefura_Apparel_Gardener.description>
+	<Hamefura_Apparel_Gardener.description>農業の屋外作業に適した丈夫な作業服の上下セットで、着用者の社会的魅力がわずかに低下します。</Hamefura_Apparel_Gardener.description>
 
 	<!-- EN: Eggplant Onesie -->
-	<Hamefura_Apparel_PjEggplant.label>jp-trans-placeholder</Hamefura_Apparel_PjEggplant.label>
+	<Hamefura_Apparel_PjEggplant.label>ナスのパジャマ</Hamefura_Apparel_PjEggplant.label>
 
 	<!-- EN: A hooded full-body sleepwear patterned after eggplants, warm and comfortable, but otherwise inappropriate for most social settings. -->
-	<Hamefura_Apparel_PjEggplant.description>jp-trans-placeholder</Hamefura_Apparel_PjEggplant.description>
+	<Hamefura_Apparel_PjEggplant.description>ナスをモチーフにしたフード付きの全身パジャマです。暖かく快適ですが、パジャマパーティー以外では不適切な恰好です。</Hamefura_Apparel_PjEggplant.description>
 
 	<!-- EN: hood -->
-	<Hamefura_Apparel_PjEggplant_Hood.label>jp-trans-placeholder</Hamefura_Apparel_PjEggplant_Hood.label>
+	<Hamefura_Apparel_PjEggplant_Hood.label>ナスのフード</Hamefura_Apparel_PjEggplant_Hood.label>
 
 	<!-- EN: Hood for the Eggplant Onesie. -->
-	<Hamefura_Apparel_PjEggplant_Hood.description>jp-trans-placeholder</Hamefura_Apparel_PjEggplant_Hood.description>
+	<Hamefura_Apparel_PjEggplant_Hood.description>ナスのパジャマ用のフードです。</Hamefura_Apparel_PjEggplant_Hood.description>
 
 </LanguageData>
