@@ -4,4 +4,4 @@ This mod is licenced under [Creative Commons Attribution-ShareAlike 4.0 Internat
 
 - You may remix your own derivatives (new or alternative textures, defs, plugin code), and release them under your own name
 
-- You must credit **Robin "sumghai" Chang (author, RimNGE)** when publishing your derivatives in the download and forum posts
+- You must credit **Robin "sumghai" Chang (author, Hamefura)** when publishing your derivatives in the download and forum posts
