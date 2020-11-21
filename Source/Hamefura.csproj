@@ -298,6 +298,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompApparelIgnoreStuffColor.cs" />
     <Compile Include="CompApparelWithAttachedHeadgear.cs" />
     <Compile Include="CompProperties_ApparelWithAttachedHeadgear.cs" />
     <Compile Include="HamefuraMod.cs" />
