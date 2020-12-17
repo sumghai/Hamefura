@@ -629,6 +629,9 @@
 			<layers>
 				<li>Overhead</li>
 			</layers>
+			<tags>
+				<li>IndustrialBasic</li>
+			</tags>
 		</apparel>
 	</ThingDef>
 
