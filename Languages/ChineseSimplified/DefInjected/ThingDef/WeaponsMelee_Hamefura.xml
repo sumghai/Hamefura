@@ -5,7 +5,7 @@
 	<Hamefura_RoyalSword.label>皇家剑</Hamefura_RoyalSword.label>
 
 	<!-- EN: An longsword with an ornate hilt, typically carried by male members of the Royal Family of Sorcier as a symbol of authority. Good for stabbing or slashing. -->
-	<Hamefura_RoyalSword.description>一把带有华丽剑柄的长剑，通常由索希尔国皇家男性成员携带，像征着权威。可以利用挥砍，突刺。 </Hamefura_RoyalSword.description>
+	<Hamefura_RoyalSword.description>一把带有华丽剑柄的长剑，通常由索希尔国皇家男性成员携带，像征着权威。可以利用挥砍，突刺。</Hamefura_RoyalSword.description>
 
 	<!-- EN: handle -->
 	<Hamefura_RoyalSword.tools.handle.label>剑柄</Hamefura_RoyalSword.tools.handle.label>
@@ -20,7 +20,7 @@
 	<Hamefura_GardenHoe.label>花园锄头</Hamefura_GardenHoe.label>
 
 	<!-- EN: A common agricultural hand tool used for breaking up soil, removing weeds and harvesting root vegetables. In a pinch, it can also be used as a crude weapon. -->
-	<Hamefura_GardenHoe.description>一把普通的农具，用来松土，去除杂草和收割根菜类。在紧急情况下，也可以当作简易武器。 </Hamefura_GardenHoe.description>
+	<Hamefura_GardenHoe.description>一把普通的农具，用来松土，去除杂草和收割根菜类。在紧急情况下，也可以当作简易武器。</Hamefura_GardenHoe.description>
 
 	<!-- EN: shaft -->
 	<Hamefura_GardenHoe.tools.handle.label>握柄</Hamefura_GardenHoe.tools.handle.label>
