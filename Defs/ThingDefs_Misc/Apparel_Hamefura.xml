@@ -618,8 +618,9 @@
 			<texPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant_Hood_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<alwaysHaulable>False</alwaysHaulable>
+		<tradeability>None</tradeability>
 		<menuHidden>true</menuHidden>
+		<destroyOnDrop>true</destroyOnDrop>
 		<apparel>
 			<bodyPartGroups>
 				<li>FullHead</li>
@@ -630,7 +631,7 @@
 				<li>Overhead</li>
 			</layers>
 			<tags>
-				<li>IndustrialBasic</li>
+				<li>Hamefura_NoSpawn</li>
 			</tags>
 		</apparel>
 	</ThingDef>
