@@ -619,7 +619,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tradeability>None</tradeability>
-		<menuHidden>true</menuHidden>
 		<destroyOnDrop>true</destroyOnDrop>
 		<apparel>
 			<bodyPartGroups>
