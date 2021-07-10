@@ -298,6 +298,7 @@
     <Compile Include="CompApparelWithAttachedHeadgear.cs" />
     <Compile Include="CompProperties_ApparelWithAttachedHeadgear.cs" />
     <Compile Include="HamefuraMod.cs" />
+    <Compile Include="Patches\Harmony_GenRecipe_PostProcessProduct.cs" />
     <Compile Include="Patches\Harmony_PawnGraphicSet_ResolveApparelGraphics.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
