@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN : Duchess 's Dress -->
+	<Hamefura_Apparel_Catarina.label>공작 따님 드레스</Hamefura_Apparel_Catarina.label>
+
+	<!-- EN : A short-sleeved jabot blouse paired with a calf-length crinoline skirt, befitting eccentric upper-class noblewomen -->
+	<Hamefura_Apparel_Catarina.description>상류층의 괴짜 귀족 여성에 어울리는 종아리 길이의 쿠리노 인 스커트와 함께 반팔 자 봇 블라우스입니다. (카타리나)</Hamefura_Apparel_Catarina.description>
+
+	<!-- EN : Prince 's Suit -->
+	<Hamefura_Apparel_Geordo.label>왕자 정장</Hamefura_Apparel_Geordo.label>
+
+	<!-- EN : A gold-trimmed morning suit with tailcoat, tailored to exacting specifications for male Royalty -->
+	<Hamefura_Apparel_Geordo.description>남자 왕족에 대한 엄격한 사양에 맞게 조정 한 연미복있는 돈으로 놓은 모닝 정장입니다. (지오루도)</Hamefura_Apparel_Geordo.description>
+
+	<!-- EN : Duke 's Suit -->
+	<Hamefura_Apparel_Keith.label>공작 令息 정장</Hamefura_Apparel_Keith.label>
+
+	<!-- EN : A tailored suit ensemble worn with a knee-length blazer, ideal for upper-class noblemen flirting with pretty maidens with lost hankerchiefs -->
+	<Hamefura_Apparel_Keith.description>무릎 길이의 재킷과 함께 테일러드 슈트는 손수건을 떨어 뜨린 귀여운 아가씨를 유혹하는 것 같은 차라있어 고급 귀족에 어울립니다. (키스)</Hamefura_Apparel_Keith.description>
+
+	<!-- EN : Marchioness 's Dress -->
+	<Hamefura_Apparel_Mary.label>후작 영애 드레스</Hamefura_Apparel_Mary.label>
+
+	<!-- EN : A floral-themed ball gown paired with a ruffled short jacket, perfect for middle-class noblewomen navigating court intrigue or trysts with secret lovers -->
+	<Hamefura_Apparel_Mary.description>꽃을 테마로 한 볼 가운에 주름 장식이 달린 짧은 재킷을 결합하면 중산층의 귀족 여성들이 궁중의 음모와 연인과의 밀회를 즐기기에 안성맞춤입니다. (메아리)</Hamefura_Apparel_Mary.description>
+
+	<!-- EN : Prince 's Trenchcoat Suit -->
+	<Hamefura_Apparel_Alan.label>왕자의 트렌치 코트</Hamefura_Apparel_Alan.label>
+
+	<!-- EN : A semi-formal suit with a leather trench coat, scarf and knee-high boots, worn by male Royalty on field excursions -->
+	<Hamefura_Apparel_Alan.description>남자 왕족이 야외 활동에 착용하는 가죽 트렌치 코트와 스카프와 니 하이 부츠 갖춘 세미 포멀 한 정장입니다. 아랑</Hamefura_Apparel_Alan.description>
+
+	<!-- EN : Countess 's Dress -->
+	<Hamefura_Apparel_Sophia.label>백작 따님의 드레스</Hamefura_Apparel_Sophia.label>
+
+	<!-- EN : A crinoline dress adorned with a capelet, perfect for middle-class noblewomen indulging in steamy romance novels -->
+	<Hamefura_Apparel_Sophia.description>화려한 로맨스 소설에 탐닉 중류 귀족 여성에게 딱 맞는 케이프 렛을 다룬 쿠리노 인 드레스입니다. (소피아)</Hamefura_Apparel_Sophia.description>
+
+	<!-- EN : Prime Minister 's Suit -->
+	<Hamefura_Apparel_Nicol.label>재상 작가 정장</Hamefura_Apparel_Nicol.label>
+
+	<!-- EN : A tailored suit ensemble with a knee-length tailcoat, worn by the most trusted of advisors to Royalty -->
+	<Hamefura_Apparel_Nicol.description>왕가가 가장 신뢰하는 재상이 착용하는 무릎 길이의 연미복과 테일러드 슈트의 조합입니다. (니콜)</Hamefura_Apparel_Nicol.description>
+
+	<!-- EN : Royal Cape -->
+	<Hamefura_Apparel_RoyalCape.label>왕족의 케이프</Hamefura_Apparel_RoyalCape.label>
+
+	<!-- EN : A sleeveless outer garment which drapes the wearer 's back and shoulder, lighter and less constraining than a full cloak or robe. Typically worn by male Royalty as a symbol of authority -->
+	<Hamefura_Apparel_RoyalCape.description>착용자의 허리와 어깨를 덮는 소매의 겉옷에서 전례 용 망토와 로브보다 가볍고 좁아 적습니다. 일반적으로 권위의 상징으로 남성 왕족이 착용합니다.</Hamefura_Apparel_RoyalCape.description>
+
+	<!-- EN : Peasant 's Dress -->
+	<Hamefura_Apparel_Maria.label>농민 드레스</Hamefura_Apparel_Maria.label>
+
+	<!-- EN : A humble and demure blouse and dress, practical for domestic and manual labor, while also presentable for surprise visits by nobility -->
+	<Hamefura_Apparel_Maria.description>검소하고 겸손한 블라우스와 드레스에서 집안일이나 육체 노동에 적합있는 실용적인 복장이지만, 귀족의 갑작스런 방문에도 실례가되지 않습니다. (마리아)</Hamefura_Apparel_Maria.description>
+
+	<!-- EN : Garden Overalls -->
+	<Hamefura_Apparel_Gardener.label>농사 의류</Hamefura_Apparel_Gardener.label>
+
+	<!-- EN : A hard-wearing set of overalls suited for agricultural fieldwork, at the cost of slightly reduced social appeal for those wearing it -->
+	<Hamefura_Apparel_Gardener.description>농업 야외 작업에 적합한 튼튼한 작업복 상하 세트 착용자의 사회적 매력이 약간 저하됩니다.</Hamefura_Apparel_Gardener.description>
+
+	<!-- EN : Eggplant Onesie -->
+	<Hamefura_Apparel_PjEggplant.label>가지 잠옷</Hamefura_Apparel_PjEggplant.label>
+
+	<!-- EN : A hooded full-body sleepwear patterned after eggplants, warm and comfortable, but otherwise inappropriate for most social settings -->
+	<Hamefura_Apparel_PjEggplant.description>가지를 모티브로 한 후드 전신 잠옷입니다. 따뜻하고 편안하지만 파자마 파티 이외에서는 잘못된 볼품입니다.</Hamefura_Apparel_PjEggplant.description>
+
+	<!-- EN : hood -->
+	<Hamefura_Apparel_PjEggplant_Hood.label>가지 식품</Hamefura_Apparel_PjEggplant_Hood.label>
+
+	<!-- EN : Hood for the Eggplant Onesie -->
+	<Hamefura_Apparel_PjEggplant_Hood.description>가지 잠옷 용 식품입니다.</Hamefura_Apparel_PjEggplant_Hood.description>
+
+</LanguageData>

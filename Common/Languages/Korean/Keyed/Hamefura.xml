@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Wear {0} -->
+	<Hamefura_ToggleableHeadgearCommand_Label>{0} 착용</Hamefura_ToggleableHeadgearCommand_Label>
+
+	<!-- EN: Toggle wearing {0} attached to apparel. -->
+	<Hamefura_ToggleableHeadgearCommand_Desc>의류에 부착 된 {0} 착용을 전환합니다.</Hamefura_ToggleableHeadgearCommand_Desc>
+
+</LanguageData>

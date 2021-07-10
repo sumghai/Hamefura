@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Royal Sword -->
+	<Hamefura_RoyalSword.label>왕의 검</Hamefura_RoyalSword.label>
+
+	<!-- EN: An longsword with an ornate hilt, typically carried by male members of the Royal Family of Sorcier as a symbol of authority. Good for stabbing or slashing. -->
+	<Hamefura_RoyalSword.description>화려한 칼자루가있는 롱소드로, 일반적으로 권위의 상징으로 소시 어 왕실의 남성 구성원이 휴대합니다. 찌르거나 베기에 좋습니다.</Hamefura_RoyalSword.description>
+
+	<!-- EN: handle -->
+	<Hamefura_RoyalSword.tools.handle.label>핸들</Hamefura_RoyalSword.tools.handle.label>
+
+	<!-- EN: point -->
+	<Hamefura_RoyalSword.tools.point.label>포인트</Hamefura_RoyalSword.tools.point.label>
+
+	<!-- EN: edge -->
+	<Hamefura_RoyalSword.tools.edge.label>가장자리</Hamefura_RoyalSword.tools.edge.label>
+
+	<!-- EN: Garden Hoe -->
+	<Hamefura_GardenHoe.label>정원 괭이</Hamefura_GardenHoe.label>
+
+	<!-- EN: A common agricultural hand tool used for breaking up soil, removing weeds and harvesting root vegetables. In a pinch, it can also be used as a crude weapon. -->
+	<Hamefura_GardenHoe.description>토양을 부수고 잡초를 제거하고 뿌리 채소를 수확하는 데 사용되는 일반적인 농업용 수공구입니다. 핀치에서는 조잡한 무기로도 사용할 수 있습니다.</Hamefura_GardenHoe.description>
+
+	<!-- EN: shaft -->
+	<Hamefura_GardenHoe.tools.handle.label>샤프트</Hamefura_GardenHoe.tools.handle.label>
+
+	<!-- EN: hoe head -->
+	<Hamefura_GardenHoe.tools.hoe_head.label>괭이 머리</Hamefura_GardenHoe.tools.hoe_head.label>
+
+	<!-- EN: hoe blade -->
+	<Hamefura_GardenHoe.tools.hoe_blade.label>괭이 날</Hamefura_GardenHoe.tools.hoe_blade.label>
+
+</LanguageData>

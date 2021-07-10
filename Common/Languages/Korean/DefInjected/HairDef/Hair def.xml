@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: [HF] Geordo -->
+	<Hamefura_Geordo.label>[하메후라] 디올드</Hamefura_Geordo.label>
+
+	<!-- EN: [HF] Alan -->
+	<Hamefura_Alan.label>[하메후라] 앨런</Hamefura_Alan.label>
+
+	<!-- EN: [HF] Keith -->
+	<Hamefura_Keith.label>[하메후라] 키스</Hamefura_Keith.label>
+
+	<!-- EN: [HF] Nicol -->
+	<Hamefura_Nicol.label>[하메후라] 니콜</Hamefura_Nicol.label>
+
+	<!-- EN: [HF] Catarina -->
+	<Hamefura_Catarina.label>[하메후라] 카타리나 </Hamefura_Catarina.label>
+
+	<!-- EN: [HF] Catarina (Farm) -->
+	<Hamefura_CatarinaFarm.label>[하메후라] 카타리나 (농장)</Hamefura_CatarinaFarm.label>
+
+	<!-- EN: [HF] Mary -->
+	<Hamefura_Mary.label>[하메후라] 메리</Hamefura_Mary.label>
+
+	<!-- EN: [HF] Sophia -->
+	<Hamefura_Sophia.label>[하메후라] 소피아</Hamefura_Sophia.label>
+	
+	<!-- EN: [HF] Maria -->
+	<Hamefura_Maria.label>[하메후라] 마리아</Hamefura_Maria.label>
+
+</LanguageData>
