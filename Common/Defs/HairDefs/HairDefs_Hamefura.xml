@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
+	<HairDef Name="HamefuraHairBase" Abstract="true">
+		<!-- 
+			Allow hairstyle labels to use illegal []{} characters without causing game load errors;
+			these are normally used by RimWorld to resolve grammar or text replacements.
+		-->
+		<ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+	</HairDef>
+	
 	<!-- Male hairstyles -->
 
-	<HairDef>
+	<HairDef ParentName="HamefuraHairBase">
 		<defName>Hamefura_Geordo</defName>
 		<label>[HF] Geordo</label>
 		<hairGender>Male</hairGender>
@@ -14,7 +22,7 @@
 		</hairTags>
 	</HairDef>
 	
-	<HairDef>
+	<HairDef ParentName="HamefuraHairBase">
 		<defName>Hamefura_Alan</defName>
 		<label>[HF] Alan</label>
 		<hairGender>Male</hairGender>
@@ -26,7 +34,7 @@
 		</hairTags>
 	</HairDef>
 	
-	<HairDef>
+	<HairDef ParentName="HamefuraHairBase">
 		<defName>Hamefura_Keith</defName>
 		<label>[HF] Keith</label>
 		<hairGender>Male</hairGender>
@@ -37,7 +45,7 @@
 		</hairTags>
 	</HairDef>
 	
-	<HairDef>
+	<HairDef ParentName="HamefuraHairBase">
 		<defName>Hamefura_Nicol</defName>
 		<label>[HF] Nicol</label>
 		<hairGender>Male</hairGender>
@@ -50,7 +58,7 @@
 	
 	<!-- Female hairstyles -->
 	
-	<HairDef>
+	<HairDef ParentName="HamefuraHairBase">
 		<defName>Hamefura_Catarina</defName>
 		<label>[HF] Catarina</label>
 		<hairGender>Female</hairGender>
@@ -60,7 +68,7 @@
 		</hairTags>
 	</HairDef>
 	
-	<HairDef>
+	<HairDef ParentName="HamefuraHairBase">
 		<defName>Hamefura_CatarinaFarm</defName>
 		<label>[HF] Catarina (Farm)</label>
 		<hairGender>Female</hairGender>
@@ -70,7 +78,7 @@
 		</hairTags>
 	</HairDef>
 	
-	<HairDef>
+	<HairDef ParentName="HamefuraHairBase">
 		<defName>Hamefura_Mary</defName>
 		<label>[HF] Mary</label>
 		<hairGender>Female</hairGender>
@@ -80,7 +88,7 @@
 		</hairTags>
 	</HairDef>
 	
-	<HairDef>
+	<HairDef ParentName="HamefuraHairBase">
 		<defName>Hamefura_Sophia</defName>
 		<label>[HF] Sophia</label>
 		<hairGender>Female</hairGender>
@@ -90,7 +98,7 @@
 		</hairTags>
 	</HairDef>
 	
-	<HairDef>
+	<HairDef ParentName="HamefuraHairBase">
 		<defName>Hamefura_Maria</defName>
 		<label>[HF] Maria</label>
 		<hairGender>Female</hairGender>
