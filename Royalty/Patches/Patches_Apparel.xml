@@ -5,15 +5,14 @@
 		<success>Always</success>
 		<operations>
 			
+			<!-- Add Noble/Royalty research prerequisites and recategorize as noble apparel-->
+			
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[@Name = "ApparelHamefuraNobleBase"]</xpath>
 				<value>
 					<recipeMaker>
 						<researchPrerequisite>NobleApparel</researchPrerequisite>
 					</recipeMaker>
-					<thingCategories Inherit="False">
-						<li>ApparelNoble</li>
-					</thingCategories>
 				</value>
 			</li>
 			
@@ -23,11 +22,21 @@
 					<recipeMaker>
 						<researchPrerequisite>RoyalApparel</researchPrerequisite>
 					</recipeMaker>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[
+					@Name = "ApparelHamefuraNobleBase" or
+					@Name = "ApparelHamefuraRoyalBase"
+				]</xpath>
+				<value>
 					<thingCategories Inherit="False">
 						<li>ApparelNoble</li>
 					</thingCategories>
 				</value>
 			</li>
+			
 		</operations>
 	</Operation>
 
