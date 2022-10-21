@@ -29,9 +29,19 @@
 
 	<!-- Placeholder abstract classes that serve as targets for Royalty DLC-specific patches-->
 
-	<ThingDef Name="ApparelHamefuraNobleBase" ParentName="ApparelHamefuraCommonerBase" Abstract="True" />
+	<ThingDef Name="ApparelHamefuraNobleBase" ParentName="ApparelHamefuraCommonerBase" Abstract="True">
+		<apparel>
+			<tags>
+				<li>Royal</li>
+				<li>RoyalTier2</li>
+				<li>RoyalTier5</li>
+				<li>RoyalTier6</li>
+				<li>RoyalTier7</li>
+			</tags>
+		</apparel>
+	</ThingDef>
 
-	<ThingDef Name="ApparelHamefuraRoyalBase" ParentName="ApparelHamefuraCommonerBase" Abstract="True" />
+	<ThingDef Name="ApparelHamefuraRoyalBase" ParentName="ApparelHamefuraNobleBase" Abstract="True" />
 
 	<!-- Duchess's Dress (Catarina) -->
 
@@ -79,10 +89,6 @@
 				<li>OnSkin</li>
 				<li>Middle</li>
 			</layers>
-			<tags>
-				<li>Royal</li>
-				<li>RoyalTier7</li>
-			</tags>
 			<gender>Female</gender>
 		</apparel>
 	</ThingDef>
@@ -132,10 +138,6 @@
 				<li>OnSkin</li>
 				<li>Middle</li>
 			</layers>
-			<tags>
-				<li>Royal</li>
-				<li>RoyalTier7</li>
-			</tags>
 			<gender>Male</gender>
 		</apparel>
 	</ThingDef>
@@ -182,10 +184,6 @@
 				<li>OnSkin</li>
 				<li>Middle</li>
 			</layers>
-			<tags>
-				<li>Royal</li>
-				<li>RoyalTier7</li>
-			</tags>
 			<gender>Male</gender>
 		</apparel>
 	</ThingDef>
@@ -235,10 +233,6 @@
 				<li>OnSkin</li>
 				<li>Middle</li>
 			</layers>
-			<tags>
-				<li>Royal</li>
-				<li>RoyalTier6</li>
-			</tags>
 			<gender>Female</gender>
 		</apparel>
 	</ThingDef>
@@ -289,10 +283,6 @@
 				<li>Middle</li>
 				<li>Shell</li>
 			</layers>
-			<tags>
-				<li>Royal</li>
-				<li>RoyalTier7</li>
-			</tags>
 			<gender>Male</gender>
 		</apparel>
 	</ThingDef>
@@ -342,10 +332,6 @@
 				<li>OnSkin</li>
 				<li>Middle</li>
 			</layers>
-			<tags>
-				<li>Royal</li>
-				<li>RoyalTier6</li>
-			</tags>
 			<gender>Female</gender>
 		</apparel>
 	</ThingDef>
@@ -392,10 +378,6 @@
 				<li>OnSkin</li>
 				<li>Middle</li>
 			</layers>
-			<tags>
-				<li>Royal</li>
-				<li>RoyalTier6</li>
-			</tags>
 			<gender>Male</gender>
 		</apparel>
 	</ThingDef>
@@ -446,8 +428,6 @@
 			</layers>
 			<tags>
 				<li>Cape</li>
-				<li>Royal</li>
-				<li>RoyalTier7</li>
 			</tags>
 		</apparel>
 	</ThingDef>
