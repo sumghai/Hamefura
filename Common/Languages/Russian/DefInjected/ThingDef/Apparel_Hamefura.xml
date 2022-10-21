@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Duchess's Dress -->
+	<Hamefura_Apparel_Catarina.label>платье герцогини</Hamefura_Apparel_Catarina.label>
+
+	<!-- EN: A short-sleeved jabot blouse paired with a calf-length crinoline skirt, befitting eccentric upper-class noblewomen. -->
+	<Hamefura_Apparel_Catarina.description>Блузка-жабо с короткими рукавами в сочетании с кринолиновой юбкой длиной до колен, как и подобает эксцентричным дворянкам высшего класса.</Hamefura_Apparel_Catarina.description>
+
+	<!-- EN: Prince's Suit -->
+	<Hamefura_Apparel_Geordo.label>костюм принца</Hamefura_Apparel_Geordo.label>
+
+	<!-- EN: A gold-trimmed morning suit with tailcoat, tailored to exacting specifications for male Royalty. -->
+	<Hamefura_Apparel_Geordo.description>Утренний костюм с золотой отделкой и фраком, сшитый по строгим меркам для мужчин королевской крови.</Hamefura_Apparel_Geordo.description>
+
+	<!-- EN: Duke's Suit -->
+	<Hamefura_Apparel_Keith.label>костюм герцога</Hamefura_Apparel_Keith.label>
+
+	<!-- EN: A tailored suit ensemble worn with a knee-length blazer, ideal for upper-class noblemen flirting with pretty maidens with lost hankerchiefs. -->
+	<Hamefura_Apparel_Keith.description>Приталенный костюм с блейзером длиной до колена, идеально подходящий для аристократов высшего класса, флиртующих с хорошенькими девицами с потерянными платочками.</Hamefura_Apparel_Keith.description>
+
+	<!-- EN: Marchioness's Dress -->
+	<Hamefura_Apparel_Mary.label>Платье маркграфини</Hamefura_Apparel_Mary.label>
+
+	<!-- EN: A floral-themed ball gown paired with a ruffled short jacket, perfect for middle-class noblewomen navigating court intrigue or trysts with secret lovers. -->
+	<Hamefura_Apparel_Mary.description>Бальное платье с цветочной тематикой в сочетании с коротким жакетом с рюшами идеально подходит для дворянок среднего класса, участвующих в придворных интригах или свиданиях с тайными любовниками.</Hamefura_Apparel_Mary.description>
+
+	<!-- EN: Prince's Trenchcoat Suit -->
+	<Hamefura_Apparel_Alan.label>Тренчкот-костюм принца</Hamefura_Apparel_Alan.label>
+
+	<!-- EN: A semi-formal suit with a leather trench coat, scarf and knee-high boots, worn by male Royalty on field excursions. -->
+	<Hamefura_Apparel_Alan.description>Полуофициальный костюм с кожаным тренчкотом, шарфом и сапогами до колена, который носили мужчины королевской крови во время выездов на природу. </Hamefura_Apparel_Alan.description>
+
+	<!-- EN: Countess's Dress -->
+	<Hamefura_Apparel_Sophia.label>платье графини</Hamefura_Apparel_Sophia.label>
+
+	<!-- EN: A crinoline dress adorned with a capelet, perfect for middle-class noblewomen indulging in steamy romance novels. -->
+	<Hamefura_Apparel_Sophia.description>Кринолиновое платье, украшенное накидкой, идеально подходит для аристократок среднего класса, предающихся парным романтическим романам.</Hamefura_Apparel_Sophia.description>
+
+	<!-- EN: Prime Minister's Suit -->
+	<Hamefura_Apparel_Nicol.label>костюм премьер-министра</Hamefura_Apparel_Nicol.label>
+
+	<!-- EN: A tailored suit ensemble with a knee-length tailcoat, worn by the most trusted of advisors to Royalty. -->
+	<Hamefura_Apparel_Nicol.description>Приталенный костюм с фраком длиной до колена, который носят самые доверенные советники королевской власти.</Hamefura_Apparel_Nicol.description>
+
+	<!-- EN: Royal Cape -->
+	<Hamefura_Apparel_RoyalCape.label>королевская накидка</Hamefura_Apparel_RoyalCape.label>
+
+	<!-- EN: A sleeveless outer garment which drapes the wearer's back and shoulder, lighter and less constraining than a full cloak or robe. Typically worn by male Royalty as a symbol of authority. -->
+	<Hamefura_Apparel_RoyalCape.description>Верхняя одежда без рукавов, драпирующая спину и плечи владельца, более легкая и менее сковывающая движения, чем полный плащ или мантия. Обычно носится мужчинами королевской крови как символ власти.</Hamefura_Apparel_RoyalCape.description>
+
+	<!-- EN: Peasant's Dress -->
+	<Hamefura_Apparel_Maria.label>крестьянское платье</Hamefura_Apparel_Maria.label>
+
+	<!-- EN: A humble and demure blouse and dress, practical for domestic and manual labor, while also presentable for surprise visits by nobility. -->
+	<Hamefura_Apparel_Maria.description>Скромная блузка и платье, практичные для домашнего и ручного труда, но в то же время презентабельные для неожиданных визитов знати.</Hamefura_Apparel_Maria.description>
+
+	<!-- EN: Garden Overalls -->
+	<Hamefura_Apparel_Gardener.label>садовая спецодежда</Hamefura_Apparel_Gardener.label>
+
+	<!-- EN: A hard-wearing set of overalls suited for agricultural fieldwork, at the cost of slightly reduced social appeal for those wearing it. -->
+	<Hamefura_Apparel_Gardener.description>Прочный комбинезон, подходящий для сельскохозяйственных полевых работ, ценой несколько сниженной социальной привлекательности тех, кто его носит.</Hamefura_Apparel_Gardener.description>
+
+	<!-- EN: Eggplant Onesie -->
+	<Hamefura_Apparel_PjEggplant.label>пижама из баклажанов</Hamefura_Apparel_PjEggplant.label>
+
+	<!-- EN: A hooded full-body sleepwear patterned after eggplants, warm and comfortable, but otherwise inappropriate for most social settings. -->
+	<Hamefura_Apparel_PjEggplant.description>Одежда для сна с капюшоном в виде баклажана, теплая и удобная, но не подходящая для большинства общественных мест.</Hamefura_Apparel_PjEggplant.description>
+
+	<!-- EN: hood -->
+	<Hamefura_Apparel_PjEggplant_Hood.label>капот</Hamefura_Apparel_PjEggplant_Hood.label>
+
+	<!-- EN: Hood for the Eggplant Onesie. -->
+	<Hamefura_Apparel_PjEggplant_Hood.description>капюшон для пижамы из баклажана</Hamefura_Apparel_PjEggplant_Hood.description>
+
+</LanguageData>

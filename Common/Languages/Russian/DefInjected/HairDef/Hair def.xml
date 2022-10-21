@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: [HF] Geordo -->
+	<Hamefura_Geordo.label>[хф] Джордо</Hamefura_Geordo.label>
+
+	<!-- EN: [HF] Alan -->
+	<Hamefura_Alan.label>[хф] Алан</Hamefura_Alan.label>
+
+	<!-- EN: [HF] Keith -->
+	<Hamefura_Keith.label>[хф] Кит</Hamefura_Keith.label>
+
+	<!-- EN: [HF] Nicol -->
+	<Hamefura_Nicol.label>[хф] Николь</Hamefura_Nicol.label>
+
+	<!-- EN: [HF] Catarina -->
+	<Hamefura_Catarina.label>[хф] Катарина</Hamefura_Catarina.label>
+
+	<!-- EN: [HF] Catarina (Farm) -->
+	<Hamefura_CatarinaFarm.label>[хф] Катарина (ферма)</Hamefura_CatarinaFarm.label>
+
+	<!-- EN: [HF] Mary -->
+	<Hamefura_Mary.label>[хф] Мэри</Hamefura_Mary.label>
+
+	<!-- EN: [HF] Sophia -->
+	<Hamefura_Sophia.label>[хф] София</Hamefura_Sophia.label>
+	
+	<!-- EN: [HF] Maria -->
+	<Hamefura_Maria.label>[хф] Мария</Hamefura_Maria.label>
+
+</LanguageData>
