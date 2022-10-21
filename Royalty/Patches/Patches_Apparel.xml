@@ -2,7 +2,6 @@
 <Patch>
 
 	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
 		<operations>
 			
 			<!-- Add Noble/Royalty research prerequisites and recategorize as noble apparel-->
