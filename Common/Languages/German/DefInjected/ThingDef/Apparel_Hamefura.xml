@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Duchess's Dress -->
+	<Hamefura_Apparel_Catarina.label>Herzogin Kleid</Hamefura_Apparel_Catarina.label>
+
+	<!-- EN: A short-sleeved jabot blouse paired with a calf-length crinoline skirt, befitting eccentric upper-class noblewomen. -->
+	<Hamefura_Apparel_Catarina.description>Eine kurzärmelige Jabotbluse, gepaart mit einem wadenlangen Krinolinenrock, wie es sich für exzentrische Adelige der Oberschicht gehört.</Hamefura_Apparel_Catarina.description>
+
+	<!-- EN: Prince's Suit -->
+	<Hamefura_Apparel_Geordo.label>Prinzenkostüm</Hamefura_Apparel_Geordo.label>
+
+	<!-- EN: A gold-trimmed morning suit with tailcoat, tailored to exacting specifications for male Royalty. -->
+	<Hamefura_Apparel_Geordo.description>Ein goldverzierter Morgenanzug mit Frack, der nach strengen Vorgaben für das männliche Königshaus geschneidert wurde.</Hamefura_Apparel_Geordo.description>
+
+	<!-- EN: Duke's Suit -->
+	<Hamefura_Apparel_Keith.label>Dukatenanzug</Hamefura_Apparel_Keith.label>
+
+	<!-- EN: A tailored suit ensemble worn with a knee-length blazer, ideal for upper-class noblemen flirting with pretty maidens with lost hankerchiefs. -->
+	<Hamefura_Apparel_Keith.description>Ein maßgeschneidertes Anzug-Ensemble, das mit einem knielangen Blazer getragen wird, ideal für Adlige der Oberschicht, die mit hübschen Mädchen mit verlorenen Taschentüchern flirten.</Hamefura_Apparel_Keith.description>
+
+	<!-- EN: Marchioness's Dress -->
+	<Hamefura_Apparel_Mary.label>Markgräfin Kleid</Hamefura_Apparel_Mary.label>
+
+	<!-- EN: A floral-themed ball gown paired with a ruffled short jacket, perfect for middle-class noblewomen navigating court intrigue or trysts with secret lovers. -->
+	<Hamefura_Apparel_Mary.description>Ein mit Blumen geschmücktes Ballkleid, gepaart mit einer kurzen Jacke mit Rüschen, perfekt für Adelige, die sich mit Intrigen am Hof oder Verabredungen mit heimlichen Liebhabern beschäftigen.</Hamefura_Apparel_Mary.description>
+
+	<!-- EN: Prince's Trenchcoat Suit -->
+	<Hamefura_Apparel_Alan.label>Prinz Trenchcoat-Anzug</Hamefura_Apparel_Alan.label>
+
+	<!-- EN: A semi-formal suit with a leather trench coat, scarf and knee-high boots, worn by male Royalty on field excursions. -->
+	<Hamefura_Apparel_Alan.description>Ein halb-förmlicher Anzug mit einem Trenchcoat aus Leder, einem Schal und kniehohen Stiefeln, die von Prinzen bei Ausflügen getragen werden.</Hamefura_Apparel_Alan.description>
+
+	<!-- EN: Countess's Dress -->
+	<Hamefura_Apparel_Sophia.label>Gräfinnenkleid</Hamefura_Apparel_Sophia.label>
+
+	<!-- EN: A crinoline dress adorned with a capelet, perfect for middle-class noblewomen indulging in steamy romance novels. -->
+	<Hamefura_Apparel_Sophia.description>Ein Krinolinenkleid mit Umhang, perfekt für Aristokratinnen, die in dampfenden Liebesromanen schwelgen.</Hamefura_Apparel_Sophia.description>
+
+	<!-- EN: Prime Minister's Suit -->
+	<Hamefura_Apparel_Nicol.label>Premierminister-Anzug</Hamefura_Apparel_Nicol.label>
+
+	<!-- EN: A tailored suit ensemble with a knee-length tailcoat, worn by the most trusted of advisors to Royalty. -->
+	<Hamefura_Apparel_Nicol.description>Ein maßgeschneidertes Anzug-Ensemble mit knielangem Frack, getragen von den vertrauenswürdigsten Beratern des Königshauses.</Hamefura_Apparel_Nicol.description>
+
+	<!-- EN: Royal Cape -->
+	<Hamefura_Apparel_RoyalCape.label>Königsumhang</Hamefura_Apparel_RoyalCape.label>
+
+	<!-- EN: A sleeveless outer garment which drapes the wearer's back and shoulder, lighter and less constraining than a full cloak or robe. Typically worn by male Royalty as a symbol of authority. -->
+	<Hamefura_Apparel_RoyalCape.description>Ein ärmelloses Obergewand, das den Rücken und die Schultern des Trägers bedeckt und leichter und weniger einschränkend ist als ein vollständiger Mantel oder eine Robe. Wird in der Regel von männlichen Königen als Symbol der Autorität getragen.</Hamefura_Apparel_RoyalCape.description>
+
+	<!-- EN: Peasant's Dress -->
+	<Hamefura_Apparel_Maria.label>Bauernkleid</Hamefura_Apparel_Maria.label>
+
+	<!-- EN: A humble and demure blouse and dress, practical for domestic and manual labor, while also presentable for surprise visits by nobility. -->
+	<Hamefura_Apparel_Maria.description>Ein bescheidenes und sittsames Blusen- und Kleidungsstück, praktisch für die häusliche und handwerkliche Arbeit, aber auch vorzeigbar für Überraschungsbesuche des Adels.</Hamefura_Apparel_Maria.description>
+
+	<!-- EN: Garden Overalls -->
+	<Hamefura_Apparel_Gardener.label>Gartenoverall</Hamefura_Apparel_Gardener.label>
+
+	<!-- EN: A hard-wearing set of overalls suited for agricultural fieldwork, at the cost of slightly reduced social appeal for those wearing it. -->
+	<Hamefura_Apparel_Gardener.description>Ein strapazierfähiger Overall, der sich für die Arbeit in der Landwirtschaft eignet, allerdings um den Preis einer etwas geringeren sozialen Attraktivität für die Träger.</Hamefura_Apparel_Gardener.description>
+
+	<!-- EN: Eggplant Onesie -->
+	<Hamefura_Apparel_PjEggplant.label>Auberginen-Strampler</Hamefura_Apparel_PjEggplant.label>
+
+	<!-- EN: A hooded full-body sleepwear patterned after eggplants, warm and comfortable, but otherwise inappropriate for most social settings. -->
+	<Hamefura_Apparel_PjEggplant.description>Ein Ganzkörper-Schlafanzug mit Kapuze, der wie eine Aubergine aussieht, warm und bequem ist, aber ansonsten für die meisten gesellschaftlichen Anlässe ungeeignet.</Hamefura_Apparel_PjEggplant.description>
+
+	<!-- EN: hood -->
+	<Hamefura_Apparel_PjEggplant_Hood.label>Haube</Hamefura_Apparel_PjEggplant_Hood.label>
+
+	<!-- EN: Hood for the Eggplant Onesie. -->
+	<Hamefura_Apparel_PjEggplant_Hood.description>Kapuze für den Auberginen-Strampler.</Hamefura_Apparel_PjEggplant_Hood.description>
+
+</LanguageData>

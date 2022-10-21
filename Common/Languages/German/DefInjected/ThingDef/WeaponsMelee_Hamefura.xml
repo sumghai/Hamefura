@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- EN: Royal Sword -->
+	<Hamefura_RoyalSword.label>Königsschwert</Hamefura_RoyalSword.label>
+	
+	<!-- EN: An longsword with an ornate hilt, typically carried by male members of the Royal Family of Sorcier as a symbol of authority. Good for stabbing or slashing. -->
+	<Hamefura_RoyalSword.description>Ein Langschwert mit einem verzierten Griff, das typischerweise von männlichen Mitgliedern der königlichen Familie von Sorcier als Symbol der Autorität getragen wird. Gut zum Stechen oder Hauen.</Hamefura_RoyalSword.description>
+	
+	<!-- EN: handle -->
+	<Hamefura_RoyalSword.tools.handle.label>Griff</Hamefura_RoyalSword.tools.handle.label>
+	
+	<!-- EN: point -->
+	<Hamefura_RoyalSword.tools.point.label>Spitze</Hamefura_RoyalSword.tools.point.label>
+	
+	<!-- EN: edge -->
+	<Hamefura_RoyalSword.tools.edge.label>Klinge</Hamefura_RoyalSword.tools.edge.label>
+	
+	<!-- EN: Garden Hoe -->
+	<Hamefura_GardenHoe.label>Gartenhacke</Hamefura_GardenHoe.label>
+	
+	<!-- EN: A common agricultural hand tool used for breaking up soil, removing weeds and harvesting root vegetables. In a pinch, it can also be used as a crude weapon. -->
+	<Hamefura_GardenHoe.description>Ein gängiges landwirtschaftliches Handwerkszeug, das zum Aufbrechen des Bodens, zum Entfernen von Unkraut und zum Ernten von Wurzelgemüse verwendet wird. Im Notfall kann es auch als grobe Waffe verwendet werden.</Hamefura_GardenHoe.description>
+	
+	<!-- EN: shaft -->
+	<Hamefura_GardenHoe.tools.handle.label>Schaft</Hamefura_GardenHoe.tools.handle.label>
+	
+	<!-- EN: hoe head -->
+	<Hamefura_GardenHoe.tools.hoe_head.label>Kopf</Hamefura_GardenHoe.tools.hoe_head.label>
+	
+	<!-- EN: hoe blade -->
+	<Hamefura_GardenHoe.tools.hoe_blade.label>Hackenblätter</Hamefura_GardenHoe.tools.hoe_blade.label>
+
+</LanguageData>
