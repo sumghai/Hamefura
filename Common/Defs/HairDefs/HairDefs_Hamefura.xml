@@ -16,10 +16,11 @@
 		<label>[HF] Geordo</label>
 		<hairGender>Male</hairGender>
 		<texPath>Hair/Hamefura_Geordo</texPath>
-		<hairTags>
+		<category>Royal</category>
+		<styleTags>
 			<li>Royalty</li>
 			<li>Urban</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	
 	<HairDef ParentName="HamefuraHairBase">
@@ -27,11 +28,12 @@
 		<label>[HF] Alan</label>
 		<hairGender>Male</hairGender>
 		<texPath>Hair/Hamefura_Alan</texPath>
-		<hairTags>
+		<category>Royal</category>
+		<styleTags>
 			<li>Royalty</li>
 			<li>Urban</li>
 			<li>Punk</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	
 	<HairDef ParentName="HamefuraHairBase">
@@ -39,10 +41,11 @@
 		<label>[HF] Keith</label>
 		<hairGender>Male</hairGender>
 		<texPath>Hair/Hamefura_Keith</texPath>
-		<hairTags>
+		<category>Royal</category>
+		<styleTags>
 			<li>Royalty</li>
 			<li>Urban</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	
 	<HairDef ParentName="HamefuraHairBase">
@@ -50,10 +53,11 @@
 		<label>[HF] Nicol</label>
 		<hairGender>Male</hairGender>
 		<texPath>Hair/Hamefura_Nicol</texPath>
-		<hairTags>
+		<category>Royal</category>
+		<styleTags>
 			<li>Royalty</li>
 			<li>Urban</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	
 	<!-- Female hairstyles -->
@@ -63,9 +67,10 @@
 		<label>[HF] Catarina</label>
 		<hairGender>Female</hairGender>
 		<texPath>Hair/Hamefura_Catarina</texPath>
-		<hairTags>
+		<category>Royal</category>
+		<styleTags>
 			<li>Royalty</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	
 	<HairDef ParentName="HamefuraHairBase">
@@ -73,9 +78,10 @@
 		<label>[HF] Catarina (Farm)</label>
 		<hairGender>Female</hairGender>
 		<texPath>Hair/Hamefura_CatarinaFarm</texPath>
-		<hairTags>
+		<category>Rural</category>
+		<styleTags>
 			<li>Rural</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	
 	<HairDef ParentName="HamefuraHairBase">
@@ -83,9 +89,10 @@
 		<label>[HF] Mary</label>
 		<hairGender>Female</hairGender>
 		<texPath>Hair/Hamefura_Mary</texPath>
-		<hairTags>
+		<category>Royal</category>
+		<styleTags>
 			<li>Royalty</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	
 	<HairDef ParentName="HamefuraHairBase">
@@ -93,9 +100,10 @@
 		<label>[HF] Sophia</label>
 		<hairGender>Female</hairGender>
 		<texPath>Hair/Hamefura_Sophia</texPath>
-		<hairTags>
+		<category>Royal</category>
+		<styleTags>
 			<li>Royalty</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	
 	<HairDef ParentName="HamefuraHairBase">
@@ -103,9 +111,10 @@
 		<label>[HF] Maria</label>
 		<hairGender>Female</hairGender>
 		<texPath>Hair/Hamefura_Maria</texPath>
-		<hairTags>
+		<category>Rural</category>
+		<styleTags>
 			<li>Rural</li>
-		</hairTags>
+		</styleTags>
 	</HairDef>
 	
 </Defs>
