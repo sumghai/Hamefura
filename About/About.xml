@@ -4,7 +4,7 @@
 	<name>Hamefura</name>
 	<author>sumghai</author>
 	<packageId>sumghai.hamefura</packageId>
-	<description>Adds Victorian fantasy-themed royalty and nobility hairstyles, apparel and weapons from the &lt;i&gt;My Next Life as a Villainess: All Roads Lead to Doom!&lt;/i&gt; franchise, also known as &lt;i&gt;Destruction Flag Otome&lt;/i&gt; or &lt;i&gt;Hamefura&lt;/i&gt;.\n\nv1.1.0</description>
+	<description>Adds Victorian fantasy-themed royalty and nobility hairstyles, apparel and weapons from the &lt;i&gt;My Next Life as a Villainess: All Roads Lead to Doom!&lt;/i&gt; franchise, also known as &lt;i&gt;Destruction Flag Otome&lt;/i&gt; or &lt;i&gt;Hamefura&lt;/i&gt;.\n\nv1.1.1</description>
 	<url/>
 	<supportedVersions>
 		<li>1.3</li>
@@ -13,9 +13,9 @@
 	<modDependencies>
 		<li>
 			<packageId>Butterfish.HairModdingPlus</packageId>
-			<displayName>Hair Modding Plus</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2114832515</steamWorkshopUrl>
-			<downloadUrl>https://github.com/TheButterfish/HairModdingPlus/releases/latest</downloadUrl>
+			<displayName>Hair Modding Plus (continued)</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2947607004</steamWorkshopUrl>
+			<downloadUrl>https://github.com/MaxDorob/HairModdingPlus-1.4/</downloadUrl>
 		</li>
 	</modDependencies>
 </ModMetaData>
