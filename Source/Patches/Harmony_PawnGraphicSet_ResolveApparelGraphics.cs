@@ -5,6 +5,8 @@ using Verse;
 
 namespace Hamefura.Patches
 {
+    // TODO - update for RW 1.5 pawn rendering system
+    /* 
     [HarmonyPatch(typeof(PawnGraphicSet), nameof(PawnGraphicSet.ResolveApparelGraphics))]
     public static class Harmony_PawnGraphicSet_ResolveApparelGraphics
     {
@@ -36,5 +38,5 @@ namespace Hamefura.Patches
                 }
             }
         }
-    }
+    }*/
 }
