@@ -563,7 +563,6 @@
 		<costStuffCount>100</costStuffCount>
 		<apparel>
 			<bodyPartGroups>
-				<li>FullHead</li>
 				<li>Neck</li>
 				<li>Torso</li>
 				<li>Shoulders</li>
