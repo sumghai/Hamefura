@@ -2,7 +2,7 @@
 using UnityEngine;
 using Verse;
 
-namespace Hamefura.Patches
+namespace Hamefura
 {
     [HarmonyPatch(typeof(GenRecipe), nameof(GenRecipe.PostProcessProduct))]
     public static class Harmony_GenRecipe_PostProcessProduct

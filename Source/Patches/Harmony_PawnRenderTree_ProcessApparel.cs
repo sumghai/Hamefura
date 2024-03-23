@@ -2,7 +2,7 @@
 using RimWorld;
 using Verse;
 
-namespace Hamefura.Patches
+namespace Hamefura
 {
     // Draw/hide hood when gizmo is toggled
     [HarmonyPatch(typeof(PawnRenderTree), nameof(PawnRenderTree.ProcessApparel))]

@@ -2,7 +2,7 @@
 using RimWorld;
 using Verse;
 
-namespace Hamefura.Patches
+namespace Hamefura
 {
     // Hide all other headgear when hood is worn
     [HarmonyPatch(typeof(PawnRenderNodeWorker_Apparel_Head), nameof(PawnRenderNodeWorker_Apparel_Head.CanDrawNow))]

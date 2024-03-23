@@ -2,7 +2,7 @@
 using RimWorld;
 using Verse;
 
-namespace Hamefura.Patches
+namespace Hamefura
 {
     // Draw/hide hair when hooded apparel is toggled
     [HarmonyPatch(typeof(PawnRenderNode_Hair), nameof(PawnRenderNode_Hair.GraphicFor))]
