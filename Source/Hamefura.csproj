@@ -299,6 +299,7 @@
     <Compile Include="CompProperties_ApparelWithAttachedHeadgear.cs" />
     <Compile Include="HamefuraMod.cs" />
     <Compile Include="Patches\Harmony_GenRecipe_PostProcessProduct.cs" />
+    <Compile Include="Patches\Harmony_PawnRenderNodeWorker_Apparel_Head_CanDrawNow.cs" />
     <Compile Include="Patches\Harmony_PawnRenderNode_Hair_GraphicFor.cs" />
     <Compile Include="Patches\Harmony_PawnRenderTree_ProcessApparel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
