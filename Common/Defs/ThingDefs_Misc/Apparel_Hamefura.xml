@@ -602,7 +602,6 @@
 		<apparel>
 			<bodyPartGroups>
 				<li>FullHead</li>
-				<li>Neck</li>
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant_Hood</wornGraphicPath>
 			<layers>

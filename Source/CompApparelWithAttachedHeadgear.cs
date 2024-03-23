@@ -39,8 +39,7 @@ namespace Hamefura
                     toggleAction = delegate
                     {
                         isHatOn = !isHatOn;
-                        // TODO - update for RW 1.5 pawn rendering system
-                        //Pawn.Drawer.renderer.graphics.ResolveApparelGraphics();
+                        Pawn.Drawer.renderer.SetAllGraphicsDirty();
                     },
                     turnOffSound = null,
                     turnOnSound = null
