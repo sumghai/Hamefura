@@ -12,7 +12,8 @@ namespace Hamefura
         {
             Apparel hoodedApparel = pawn.apparel.WornApparel.Find(x => x.TryGetComp<CompApparelWithAttachedHeadgear>() != null);
 
-            if (hoodedApparel?.TryGetComp<CompApparelWithAttachedHeadgear>() is CompApparelWithAttachedHeadgear comp && comp.isHatOn)
+            // Hoods are always hidden in bed, so don't hide hair
+            if (hoodedApparel?.TryGetComp<CompApparelWithAttachedHeadgear>() is CompApparelWithAttachedHeadgear comp && comp.isHatOn && !pawn.InBed())
             {
                 __result = null;
             }
