@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Hamefura</RootNamespace>
     <AssemblyName>Hamefura</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>false</DebugSymbols>
@@ -22,6 +23,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>1</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>9</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -30,6 +32,8 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>9</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
@@ -297,11 +301,13 @@
     <Compile Include="CompApparelIgnoreStuffColor.cs" />
     <Compile Include="CompApparelWithAttachedHeadgear.cs" />
     <Compile Include="CompProperties_ApparelWithAttachedHeadgear.cs" />
+    <Compile Include="HamefuraDefOf.cs" />
     <Compile Include="HamefuraMod.cs" />
     <Compile Include="Patches\Harmony_GenRecipe_PostProcessProduct.cs" />
-    <Compile Include="Patches\Harmony_PawnRenderNodeWorker_Apparel_Head_CanDrawNow.cs" />
-    <Compile Include="Patches\Harmony_PawnRenderNode_Hair_GraphicFor.cs" />
+    <Compile Include="Patches\Harmony_ITab_Pawn_Gear_DrawThingRow.cs" />
     <Compile Include="Patches\Harmony_PawnRenderTree_ProcessApparel.cs" />
+    <Compile Include="Patches\Harmony_PawnRenderTree_SetupApparelNodes.cs" />
+    <Compile Include="Patches\Harmony_Pawn_JobTracker_TryTakeOrderedJob.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

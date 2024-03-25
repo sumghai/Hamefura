@@ -571,7 +571,6 @@
 			</bodyPartGroups>
 			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant</wornGraphicPath>
 			<layers>
-				<li>Overhead</li>
 				<li>OnSkin</li>
 				<li>Middle</li>
 				<li>Shell</li>
@@ -597,6 +596,12 @@
 			<texPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant_Hood_south</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<statBases>
+			<Mass>0</Mass>
+		</statBases>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
 		<tradeability>None</tradeability>
 		<destroyOnDrop>true</destroyOnDrop>
 		<apparel>
@@ -611,6 +616,11 @@
 				<li>Hamefura_NoSpawn</li>
 			</tags>
 		</apparel>
+		<comps>
+			<li>
+				<compClass>Hamefura.CompApparelIgnoreStuffColor</compClass>
+			</li>
+		</comps>
 	</ThingDef>
 
 </Defs>
