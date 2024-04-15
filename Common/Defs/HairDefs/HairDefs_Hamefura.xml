@@ -71,6 +71,7 @@
 		<styleTags>
 			<li>Royalty</li>
 		</styleTags>
+		<overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef> <!-- for hair accessories -->
 	</HairDef>
 	
 	<HairDef ParentName="HamefuraHairBase">
@@ -82,6 +83,7 @@
 		<styleTags>
 			<li>Rural</li>
 		</styleTags>
+		<overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef> <!-- for hair accessories -->
 	</HairDef>
 	
 	<HairDef ParentName="HamefuraHairBase">
@@ -93,6 +95,7 @@
 		<styleTags>
 			<li>Royalty</li>
 		</styleTags>
+		<overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef> <!-- for hair accessories -->
 	</HairDef>
 	
 	<HairDef ParentName="HamefuraHairBase">
@@ -104,6 +107,7 @@
 		<styleTags>
 			<li>Royalty</li>
 		</styleTags>
+		<overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef> <!-- for hair accessories -->
 	</HairDef>
 	
 	<HairDef ParentName="HamefuraHairBase">
@@ -115,6 +119,7 @@
 		<styleTags>
 			<li>Rural</li>
 		</styleTags>
+		<overrideShaderTypeDef>CutoutComplex</overrideShaderTypeDef> <!-- for hair accessories -->
 	</HairDef>
 	
 </Defs>
