@@ -4,10 +4,14 @@ namespace Hamefura
 {
     public class CompProperties_ApparelWithAttachedHeadgear : CompProperties
     {
-        public ThingDef attachedHeadgearDef;
+        [NoTranslate]
+        public string attachedHeadgearGraphicPath;
 
         [NoTranslate]
         public string toggleUiIconPath;
+
+        [MustTranslate]
+        public string attachedHeadgearLabel;
 
         public CompProperties_ApparelWithAttachedHeadgear()
         {

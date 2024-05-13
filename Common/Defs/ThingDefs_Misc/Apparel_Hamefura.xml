@@ -581,46 +581,11 @@
 		</apparel>
 		<comps>
 			<li Class="Hamefura.CompProperties_ApparelWithAttachedHeadgear">
-				<attachedHeadgearDef>Hamefura_Apparel_PjEggplant_Hood</attachedHeadgearDef>
+				<attachedHeadgearLabel>hood</attachedHeadgearLabel>
+				<attachedHeadgearGraphicPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant_Hood</attachedHeadgearGraphicPath>
 				<toggleUiIconPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant_Hood</toggleUiIconPath>
 			</li>
 		</comps>
 	</ThingDef>
-
-	<!-- Hood for Eggplant Onesie (This is a dummy ThingDef, which will get called programmatically) -->
-	<ThingDef ParentName="HatBase">
-		<defName>Hamefura_Apparel_PjEggplant_Hood</defName>
-		<label>hood</label>
-		<description>Hood for the Eggplant Onesie.</description>
-		<graphicData>
-			<texPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant_Hood_south</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<statBases>
-			<Mass>0</Mass>
-		</statBases>
-		<stuffCategories>
-			<li>Fabric</li>
-		</stuffCategories>
-		<tradeability>None</tradeability>
-		<destroyOnDrop>true</destroyOnDrop>
-		<apparel>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
-			<wornGraphicPath>Things/Apparel/Hamefura_Apparel_PjEggplant/Hamefura_Apparel_PjEggplant_Hood</wornGraphicPath>
-			<layers>
-				<li>Overhead</li>
-			</layers>
-			<tags>
-				<li>Hamefura_NoSpawn</li>
-			</tags>
-		</apparel>
-		<comps>
-			<li>
-				<compClass>Hamefura.CompApparelIgnoreStuffColor</compClass>
-			</li>
-		</comps>
-	</ThingDef>
-
+	
 </Defs>

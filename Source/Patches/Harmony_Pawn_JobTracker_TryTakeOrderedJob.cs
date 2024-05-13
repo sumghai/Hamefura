@@ -6,7 +6,6 @@ using Verse.AI;
 namespace Hamefura
 {
     // Forces pawns to flip down the hoods of their hooded apparel before they try wearing another hat
-    // (The game otherwise throws an error when trying to discard an un-discardable hood)
     [HarmonyPatch(typeof(Pawn_JobTracker), nameof(Pawn_JobTracker.TryTakeOrderedJob))]
     public static class Harmony_Pawn_JobTracker_TryTakeOrderedJob_ForceHoodDownWhenWearingNewHat
     {

@@ -68,9 +68,6 @@
 	<Hamefura_Apparel_PjEggplant.description>一件茄子造型的连帽睡衣，穿了温暖舒适，但不适合公众场合。</Hamefura_Apparel_PjEggplant.description>
 
 	<!-- EN: hood -->
-	<Hamefura_Apparel_PjEggplant_Hood.label>兜帽</Hamefura_Apparel_PjEggplant_Hood.label>
-
-	<!-- EN: Hood for the Eggplant Onesie. -->
-	<Hamefura_Apparel_PjEggplant_Hood.description>茄子连体睡衣的兜帽。</Hamefura_Apparel_PjEggplant_Hood.description>
+	<Hamefura_Apparel_PjEggplant.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>兜帽</Hamefura_Apparel_PjEggplant.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>
 
 </LanguageData>

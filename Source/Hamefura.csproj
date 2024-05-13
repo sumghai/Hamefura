@@ -36,9 +36,8 @@
     <LangVersion>9</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony">
-      <HintPath>..\..\Harmony\Current\Assemblies\0Harmony.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="0Harmony, Version=2.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Lib.Harmony.2.3.3\lib\net48\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp_public">
       <HintPath>..\..\..\RimWorldWin64_Data\Managed\Assembly-CSharp_public.dll</HintPath>
@@ -298,17 +297,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompApparelIgnoreStuffColor.cs" />
-    <Compile Include="CompApparelWithAttachedHeadgear.cs" />
-    <Compile Include="CompProperties_ApparelWithAttachedHeadgear.cs" />
-    <Compile Include="HamefuraDefOf.cs" />
+    <Compile Include="Comps\CompApparelIgnoreStuffColor.cs" />
+    <Compile Include="Comps\CompApparelWithAttachedHeadgear.cs" />
+    <Compile Include="Comps\CompProperties_ApparelWithAttachedHeadgear.cs" />
     <Compile Include="HamefuraMod.cs" />
     <Compile Include="Patches\Harmony_GenRecipe_PostProcessProduct.cs" />
-    <Compile Include="Patches\Harmony_ITab_Pawn_Gear_DrawThingRow.cs" />
-    <Compile Include="Patches\Harmony_PawnRenderTree_ProcessApparel.cs" />
-    <Compile Include="Patches\Harmony_PawnRenderTree_SetupApparelNodes.cs" />
+    <Compile Include="Patches\Harmony_PawnRenderTree.cs" />
     <Compile Include="Patches\Harmony_Pawn_JobTracker_TryTakeOrderedJob.cs" />
+    <Compile Include="PawnRendering\PawnRenderNodeWorker_Apparel_Head_ToggleableHood.cs" />
+    <Compile Include="PawnRendering\PawnRenderNode_ApparelToggleableHood.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

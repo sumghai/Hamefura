@@ -68,9 +68,6 @@
 	<Hamefura_Apparel_PjEggplant.description>Ein Ganzkörper-Schlafanzug mit Kapuze, der wie eine Aubergine aussieht, warm und bequem ist, aber ansonsten für die meisten gesellschaftlichen Anlässe ungeeignet.</Hamefura_Apparel_PjEggplant.description>
 
 	<!-- EN: hood -->
-	<Hamefura_Apparel_PjEggplant_Hood.label>Haube</Hamefura_Apparel_PjEggplant_Hood.label>
-
-	<!-- EN: Hood for the Eggplant Onesie. -->
-	<Hamefura_Apparel_PjEggplant_Hood.description>Kapuze für den Auberginen-Strampler.</Hamefura_Apparel_PjEggplant_Hood.description>
+	<Hamefura_Apparel_PjEggplant.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>Haube</Hamefura_Apparel_PjEggplant.comps.CompApparelWithAttachedHeadgear.attachedHeadgearLabel>
 
 </LanguageData>
