@@ -15,7 +15,7 @@ namespace Hamefura
 
             if (__result && job.def == JobDefOf.Wear && job.targetA.Thing.def.apparel.layers.Contains(ApparelLayerDefOf.Overhead)) // Only run on a successful Force wear apparel job for a hat
             {
-                if (pawn.apparel.WornApparel.Find(x => x.HasComp<CompApparelWithAttachedHeadgear>()) is Apparel hoodedApparel && hoodedApparel.GetComp<CompApparelWithAttachedHeadgear>() is CompApparelWithAttachedHeadgear comp)
+                if (pawn.apparel.WornApparel.FirstOrDefault(ap => ap.GetComp<CompApparelWithAttachedHeadgear>() != null)?.GetComp<CompApparelWithAttachedHeadgear>() is CompApparelWithAttachedHeadgear comp)
                 {
                     comp.isHatOn = false;
                     pawn.drawer.renderer.SetAllGraphicsDirty(); // Pawn needs to be redrawn, or the hood def doesn't disappear from the pawn inventory

@@ -1,7 +1,6 @@
 ﻿using HarmonyLib;
 using RimWorld;
 using System.Collections.Generic;
-using System.Linq;
 using Verse;
 
 namespace Hamefura
@@ -13,7 +12,7 @@ namespace Hamefura
         // Hide all other headgear is the hood is enabled
         static bool Prefix(PawnRenderTree __instance, Apparel ap, PawnRenderNode headApparelNode)
         {
-            if (ap.def.apparel.layers.Contains(ApparelLayerDefOf.Overhead) && __instance.pawn.apparel.WornApparel.Find(ap => ap.HasComp<CompApparelWithAttachedHeadgear>()) is Apparel hoodedApparel && hoodedApparel.GetComp<CompApparelWithAttachedHeadgear>() is CompApparelWithAttachedHeadgear comp && comp.isHatOn)
+            if (ap.def.apparel.layers.Contains(ApparelLayerDefOf.Overhead) && __instance.pawn.apparel.WornApparel.Exists(ap => ap.GetComp<CompApparelWithAttachedHeadgear>()?.isHatOn ?? false))
             {
                 return false; // Hide
             }
@@ -23,7 +22,7 @@ namespace Hamefura
         // Add the hooded headgear render node
         static void Postfix(PawnRenderTree __instance, Apparel ap)
         {
-            if (ap.comps.OfType<CompApparelWithAttachedHeadgear>().FirstOrDefault() is CompApparelWithAttachedHeadgear comp && comp.CompRenderNodes() is List<PawnRenderNode> renderNodes)
+            if (ap.GetComp<CompApparelWithAttachedHeadgear>()?.CompRenderNodes() is List<PawnRenderNode> renderNodes)
             {
                 foreach (PawnRenderNode node in renderNodes)
                 {
@@ -46,7 +45,7 @@ namespace Hamefura
 
             if (pawn.apparel != null && PawnRenderNodeWorker_Apparel_Head.HeadgearVisible(parms))
             {
-                if (pawn.apparel.WornApparel.FirstOrDefault(ap => ap.HasComp<CompApparelWithAttachedHeadgear>()) is Apparel hoodedApparel && hoodedApparel.GetComp<CompApparelWithAttachedHeadgear>() is CompApparelWithAttachedHeadgear comp && comp.isHatOn)
+                if (pawn.apparel.WornApparel.Exists(ap => ap.GetComp<CompApparelWithAttachedHeadgear>()?.isHatOn ?? false))
 
                     parms.skipFlags |= RenderSkipFlagDefOf.Hair;
             }
