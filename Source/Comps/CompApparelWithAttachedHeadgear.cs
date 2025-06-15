@@ -30,8 +30,6 @@ namespace Hamefura
             // Calculate rendering offset for head apparel layer
             PawnRenderNode value;
             PawnRenderNode headApparelNode = (Pawn.drawer.renderer.renderTree.nodesByTag.TryGetValue(PawnRenderNodeTagDefOf.ApparelHead, out value) ? value : null);
-            float value2;
-            float num = (Pawn.drawer.renderer.renderTree.layerOffsets.TryGetValue(headApparelNode, out value2) ? value2 : 0f);
 
             // Set up rendering properties for the hood
             properties.texPath = Props.attachedHeadgearGraphicPath;
@@ -40,10 +38,12 @@ namespace Hamefura
             properties.shaderTypeDef = Apparel.def.graphicData.shaderType;
             properties.workerClass = typeof(PawnRenderNodeWorker_Apparel_Head_ToggleableHood);
             properties.parentTagDef = PawnRenderNodeTagDefOf.ApparelHead;
-            properties.baseLayer = headApparelNode.Props.baseLayer + num;
+            properties.baseLayer = headApparelNode.Props.baseLayer;
 
-            PawnRenderNode_ApparelToggleableHood hoodApparelNode = new(Pawn, properties, Pawn.drawer.renderer.renderTree);
-            hoodApparelNode.attachedHeadgearComp = this;
+            PawnRenderNode_ApparelToggleableHood hoodApparelNode = new(Pawn, properties, Pawn.drawer.renderer.renderTree)
+            {
+                attachedHeadgearComp = this
+            };
             hoodRenderNode.Add(hoodApparelNode);
 
             return hoodRenderNode;
